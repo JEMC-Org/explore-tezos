@@ -1,5 +1,6 @@
+import React from "react";
 import "tailwindcss/tailwind.css";
-import Tile from './components/tile';
+import Tile from "./components/tile";
 import Header from "./components/header";
 
 export default function App() {
@@ -8,5 +9,5 @@ export default function App() {
       <Header />
       <Tile />
     </div>
-  )
+  );
 }

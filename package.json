@@ -26,7 +26,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +49,16 @@
   },
   "autoprefixer": "^9.8.8",
   "postcss": "^7.0.39",
-  "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.16"
+  "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.16",
+  "devDependencies": {
+    "@types/react": "^17.0.27",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.26.1",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.2",
+    "prettier": "2.4.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
 }
