@@ -59,6 +59,6 @@
     "prettier": "2.4.1"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "*": "prettier --write --ignore-unknown"
   }
 }
