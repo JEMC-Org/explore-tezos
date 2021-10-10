@@ -17,14 +17,14 @@ export default function Tile() {
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="sr-only">Apps</h2>
         <h2>Defi</h2>
-        <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 ">
+        <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {apps.map((app) => (
             <div
               key={app.id}
-              className="relative group bg-grey-100 bg-cover bg-center p-2 rounded ring-2 ring-gray-200 shadow-md group-hover:opacity-75 "
+              className="relative group bg-grey-100 bg-cover bg-center p-2 rounded ring-2 ring-gray-200 shadow-md group-hover:opacity-75"
             >
               <a href={app.href}>
-                <div className="flex justify-center w-full rounded-lg overflow-hidden ">
+                <div className="flex justify-center w-full rounded-lg overflow-hidden">
                   <img src={app.imageSrc} alt={app.name} className="bg-white" />
                 </div>
                 <div className="m-1 py-5">

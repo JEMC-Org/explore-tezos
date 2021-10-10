@@ -1,13 +1,7 @@
 import React from "react";
-import { ReactComponent as Logo } from "../logo.svg";
-import { ReactComponent as Background } from "../background.svg";
+import { ReactComponent as Logo } from "../images/logo.svg";
+import { ReactComponent as Background } from "../images/background.svg";
 
 export default function Header() {
-  return (
-    <div className="">
-      <div className="">
-        <Background className="sm:block" />
-      </div>
-    </div>
-  );
+  return <Background className="sm:block" />;
 }
