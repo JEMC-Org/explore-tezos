@@ -5,7 +5,7 @@ export let apps = [
     href: "https://templewallet.com/",
     description:
       "A Tezos browser extension wallet by MadFish Solutions. Quipuswap intergraded, view NFT in your wallet ",
-    category: ["Wallet", "Exchange"],
+    category: ["Wallet", "Exchange", "Featured"],
     parentCompany: "MadFish Solutions",
     imageSrc:
       "https://templewallet.com/static/jumbotron-431267a2d7dda31a890400bec1e45238.png",
@@ -22,7 +22,7 @@ export let apps = [
     href: "https://quipuswap.com/swap",
     description:
       "A Tezos browser extension wallet by MadFish Solutions. Quipuswap intergraded, view NFT in your wallet ",
-    category: ["Wallet", "Exchange"],
+    category: ["Exchange", "DeFi", "Featured"],
     parentCompany: "MadFish Solutions",
     imageSrc: "https://quipuswap.com/img/logo.87f215cb.png",
     redditUrl: "https://www.reddit.com/r/MadFishCommunity/",
@@ -38,7 +38,7 @@ export let apps = [
     href: "https://airgap.it/",
     description:
       "Mobile Tezos wallet by Papers! A very secure wallet with the option to use an offline phone to accept transactions",
-    category: ["Wallet"],
+    category: ["Wallet", "Featured"],
     parentCompany: "Papers",
     imageSrc:
       "https://airgap.it/wp-content/uploads/2020/07/device-vault_wallet-2-1.png",
@@ -66,7 +66,7 @@ export let apps = [
     href: "https://tezos.domains/",
     description:
       "Get a domain name for your tezos wallet, own a piece of the decentralized web. Buy, sell, bid and manage your tezos domain names",
-    category: ["NFT"],
+    category: ["NFT", "Featured"],
     parentCompany: "Tezos Domains",
     imageSrc:
       "https://d33wubrfki0l68.cloudfront.net/869a9d1134f8ac7917e8b0330980f538b4d4d1fe/dd54e/assets/img/illustrations/illustration-4.png",
