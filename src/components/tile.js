@@ -13,12 +13,12 @@ import {
 
 export default function Tile({ app }) {
   return (
-    <div>
-      <a href={app.href}>
-        <div className="flex justify-center rounded-lg overflow-hidden mx-h-8">
+    <div className="w-full h-auto mx-h-10">
+      <a href={app.href} target="_blank" rel="noopener noreferrer">
+        <div className="flex justify-center rounded-lg h-20">
           <img src={app.imageSrc} alt={app.name} className="bg-white" />
         </div>
-        <div className="m-1 py-5">
+        <div className="m-1 pt-2 pb-10">
           <h3 className="text-titles">{app.name}</h3>
           <p className="text-sm text-descriptions pt-3">{app.description}</p>
         </div>
