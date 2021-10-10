@@ -5,9 +5,14 @@ import Header from "./components/header";
 
 export default function App() {
   return (
-    <div className="App">
-      <Header />
-      <TileList />
+    <div>
+      <head>
+        <title>Explore Tezos</title>
+      </head>
+      <body>
+        <Header />
+        <TileList />
+      </body>
     </div>
   );
 }

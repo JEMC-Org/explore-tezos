@@ -20,7 +20,7 @@ module.exports = {
     borderColor: {
       primary: "#0F61FF",
       white: "#FFFFFF",
-      gold: "#f1c232",
+      gold: "#ffc000",
     },
   },
   variants: {

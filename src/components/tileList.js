@@ -11,7 +11,7 @@ export default function TileList({ category }) {
     <div className="bg-white">
       <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="sr-only">Apps</h2>
-        <div className="flex flex-wrap justify-between mx-auto w-1/2 py-10">
+        <div className="flex flex-wrap justify-start lg:justify-between mx-auto w-1/2 py-10">
           <button
             className="bg-primary hover:bg-primary hover:text-white font-bold py-2 px-4 rounded focus:bg-gold focus:text-gold transition ease-out duration-700"
             onClick={() => {
@@ -58,7 +58,7 @@ export default function TileList({ category }) {
             NFT
           </button>
         </div>
-        <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 p-10">
           {appsState.map((app) => (
             <div
               key={app.id}
