@@ -6,13 +6,8 @@ import Header from "./components/header";
 export default function App() {
   return (
     <div>
-      <head>
-        <title>Explore Tezos</title>
-      </head>
-      <body>
-        <Header />
-        <TileList />
-      </body>
+      <Header />
+      <TileList />
     </div>
   );
 }
