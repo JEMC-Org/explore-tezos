@@ -9,6 +9,8 @@ import {
   faDiscord,
   faGithub,
   faLinkedin,
+  faYoutube,
+  faMedium,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Tile({ app }) {
@@ -92,6 +94,26 @@ export default function Tile({ app }) {
             rel="noopener noreferrer"
           >
             {<FontAwesomeIcon icon={faLinkedin} />}
+          </a>
+        ) : null}
+        {app.youtubeUrl ? (
+          <a
+            className=" px-2 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+            href={app.youtubeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {<FontAwesomeIcon icon={faYoutube} />}
+          </a>
+        ) : null}
+        {app.mediumUrl ? (
+          <a
+            className=" px-2 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+            href={app.mediumUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {<FontAwesomeIcon icon={faMedium} />}
           </a>
         ) : null}
       </div>
