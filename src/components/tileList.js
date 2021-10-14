@@ -61,7 +61,7 @@ export default function TileList({ category }) {
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 p-10">
           {appsState.map((app) => (
             <div
-              key={app.id}
+              key={app.name}
               className="relative group bg-grey-100 bg-cover bg-center p-2 rounded ring-2 ring-gray-200 shadow-md group-hover:opacity-75"
             >
               <Tile app={app} />
