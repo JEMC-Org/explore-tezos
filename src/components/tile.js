@@ -11,6 +11,7 @@ import {
   faLinkedin,
   faYoutube,
   faMedium,
+  faGitlab,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Tile({ app }) {
@@ -84,6 +85,16 @@ export default function Tile({ app }) {
             rel="noopener noreferrer"
           >
             {<FontAwesomeIcon icon={faGithub} />}
+          </a>
+        ) : null}
+        {app.gitlabUrl ? (
+          <a
+            className=" px-2 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+            href={app.gitlabUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {<FontAwesomeIcon icon={faGitlab} />}
           </a>
         ) : null}
         {app.linkedinUrl ? (
