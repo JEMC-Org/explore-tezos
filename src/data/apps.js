@@ -31,30 +31,32 @@ export let apps = [
     linkedinUrl: "https://t.me/MadFishCommunity",
   },
   {
-    name: "AirGap",
-    href: "https://airgap.it/",
+    name: "Objkt",
+    href: "https://objkt.com/",
     description:
-      "Mobile Tezos wallet by Papers! A very secure wallet with the option to use an offline phone to accept transactions.",
-    category: ["Wallet", "Featured"],
-    parentCompany: "Papers",
+      "The largest NFT marketplace on Tezos. Buy, Sell, Bid and view your NFTs in one place.",
+    category: ["NFT"],
+    parentCompany: "Objkt",
     imageSrc:
-      "https://airgap.it/wp-content/uploads/2020/07/Airgap_Logo_sideways_color-xs.svg",
-    twitterUrl: "https://twitter.com/AirGap_it",
-    discordUrl: "https://discord.gg/T5ZKuuErWw",
-    githubUrl: "https://github.com/airgap-it",
-    telegramUrl: "https://t.me/AirGap",
-    linkedinUrl: "https://www.linkedin.com/company/papers.ch/",
+      "https://pbs.twimg.com/profile_images/1447891818230726658/SjsiPLOJ_400x400.png",
+    twitterUrl: "https://twitter.com/objktcom",
+    discordUrl: "https://discord.gg/m7YFqPvmj6",
   },
+
   {
-    name: "Archetype",
-    href: "https://archetype-lang.org/",
+    name: "KickFlow",
+    href: "https://kickflow.io/",
     description:
-      "A domain-specific language to develop Smart Contracts on the Tezos blockchain, with all Michelson features, plus exclusive features (new types, state machine design, ...) to ease development, tests and formal verification.",
-    category: ["Tool", "Dev"],
-    parentCompany: "edukera",
-    imageSrc: "https://archetype-lang.org/images/Illu-home.svg",
-    twitterUrl: "https://twitter.com/archetype_lang",
-    githubUrl: "https://github.com/edukera/archetype-lang",
+      "A decentralized platform that enables community funding for projects on Tezos. Through Quadratic Funding, we give the community the power to take the best projects forward!",
+    category: ["Dev", "Crowdfunding"],
+    parentCompany: "KickFlow",
+    imageSrc: "https://i.imgur.com/MGmu5TF.png",
+    twitterUrl: "https://twitter.com/kickflowio",
+    discordUrl: "https://discord.gg/nzwRHu6meQ",
+    githubUrl: "https://github.com/kickflowio",
+    telegramUrl: "https://t.me/kickflow",
+    linkedinUrl: "https://www.linkedin.com/company/kickflowio/",
+    youtubeUrl: "https://www.youtube.com/channel/UCA1K1dSRsWn4gPxJ-z5wyNA",
   },
   {
     name: "Tezos Domains",
@@ -72,6 +74,19 @@ export let apps = [
     linkedinUrl: "https://www.linkedin.com/company/papers.ch/",
     mediumUrl: "https://blog.tezos.domains/",
   },
+
+  {
+    name: "Pixel Potus",
+    href: "https://www.pixelpotus.com/",
+    description:
+      "PixelPotus is a digital collectable competition built on the Tezos blockchain.",
+    category: ["NFT", "Gaming"],
+    parentCompany: "",
+    imageSrc: "https://www.pixelpotus.com/img/potus.c3aeacbd.gif",
+    twitterUrl: "https://twitter.com/PixelPotus",
+    discordUrl: "https://discord.gg/CbdbvwtwkM",
+    telegramUrl: "https://t.me/pixelpotus",
+  },
   {
     name: "Plenty",
     href: "https://www.plentydefi.com/",
@@ -86,29 +101,43 @@ export let apps = [
     telegramUrl: "https://t.me/PlentyDeFi",
     discordUrl: "https://discord.gg/9wZ4CuvkuJ",
   },
+
   {
-    name: "Beacon",
-    href: "https://www.walletbeacon.io/",
+    name: "TzKT",
+    href: "https://tzkt.io/",
+    description: "Tezos blockchain explorer by Baking Bad",
+    category: ["Block Explorer", "Tool"],
+    parentCompany: "Baking Bad",
+    imageSrc: "https://tzkt.io/logo.svg",
+  },
+
+  {
+    name: "AirGap",
+    href: "https://airgap.it/",
     description:
-      "Connect your wallet with Beacon! this app is used by any tezos application that needs a wallet to connect to it.",
-    category: ["Wallet Connector", "Dev"],
-    parentCompany: "AirGap & Papers",
+      "Mobile Tezos wallet by Papers! A very secure wallet with the option to use an offline phone to accept transactions.",
+    category: ["Wallet", "Featured"],
+    parentCompany: "Papers",
     imageSrc:
-      "https://www.walletbeacon.io/wp-content/uploads/2021/03/beacon_logoy_type_hor_padding.svg",
-    twitterUrl: "https://twitter.com/airgap_it",
-    discordUrl: "https://discord.gg/vuf4Gtnqh7",
+      "https://airgap.it/wp-content/uploads/2020/07/Airgap_Logo_sideways_color-xs.svg",
+    twitterUrl: "https://twitter.com/AirGap_it",
+    discordUrl: "https://discord.gg/T5ZKuuErWw",
+    githubUrl: "https://github.com/airgap-it",
+    telegramUrl: "https://t.me/AirGap",
+    linkedinUrl: "https://www.linkedin.com/company/papers.ch/",
   },
   {
-    name: "Conseil",
-    href: "https://cryptonomic.tech/conseil.html",
+    name: "Crunchy",
+    href: "https://app.crunchy.network/#/",
     description:
-      "Conseil is an indexer and API for blockchains, currently focused on the Tezos, which allows you to seamlessly run complex queries against blockchain data.",
-    category: ["Tech"],
-    parentCompany: "Cryptonomic",
-    imageSrc: "https://i.imgur.com/9Qzpeyw.png",
-    twitterUrl: "https://twitter.com/CryptonomicTech",
-    githubUrl: "https://github.com/Cryptonomic",
-    mediumUrl: "https://medium.com/the-cryptonomic-aperiodical",
+      "Crunchy provides DeFi services and solutions on Tezos to projects and developers.",
+    category: ["Farm", "DeFi", "Featured"],
+    parentCompany: "Crunchy.Network",
+    imageSrc:
+      "https://app.crunchy.network/img/logo_transparent_background.8aaaf303.png",
+    twitterUrl: "https://twitter.com/CrunchyTez",
+    discordUrl: "https://discord.com/invite/99UnxxgB46",
+    telegramUrl: "https://t.me/crunchy_network",
   },
   {
     name: "Baking Bad",
@@ -122,22 +151,10 @@ export let apps = [
     discordUrl: "https://discord.gg/aG8XKuwsQd",
   },
   {
-    name: "Better Call Dev",
-    href: "https://better-call.dev/",
-    description:
-      "Tezos smart contract explorer by Baking Bad. Explore DApps, check statistics and do advanced searches on the tezos blockchain.",
-    category: [""],
-    parentCompany: "Baking Bad",
-    imageSrc:
-      "https://pbs.twimg.com/card_img/1445567890401361926/S61y3_xr?format=png&name=240x240",
-    twitterUrl: "https://twitter.com/YourBakeBuddy",
-    githubUrl: "https://github.com/baking-bad",
-  },
-  {
     name: "Kolibri",
     href: "https://kolibri.finance/",
     description:
-      "Kolibri is an Tezos based stablecoin built on Collateralized Debt Positions (CDPs) known as ovens. Farm for kDAO and participate in their ",
+      "Kolibri is an Tezos based stablecoin built on Collateralized Debt Positions (CDPs) known as ovens. Farm for kDAO and participate in their Governance and liquidity pool",
     category: ["Stable Coin", "Farming", "DeFi"],
     parentCompany: "Hover Labs",
     imageSrc: "https://kolibri.finance/img/kolibri-brand.b0cd3374.png",
@@ -146,39 +163,7 @@ export let apps = [
     mediumUrl: "https://kolibri-xtz.medium.com/",
     discordUrl: "https://discord.gg/nkpSN467",
   },
-  {
-    name: "Dip up",
-    href: "https://dipdup.net/",
-    description:
-      "YA full stack framework for building selective Tezos indexers, service workers, and reactive UI components",
-    category: ["Dev"],
-    parentCompany: "Baking Bad",
-    imageSrc:
-      "https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=2,format=auto/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-28427.appspot.com%2Fo%2Fspaces%252F-MYAMf2BH-LOIc8YWoHV%252Favatar-1618502720833.png%3Fgeneration%3D1618502721094932%26alt%3Dmedia",
-    discordUrl: "https://discord.gg/aG8XKuwsQd",
-  },
-  {
-    name: "Kiln",
-    href: "https://tezos-kiln.org/",
-    description:
-      "Kiln is a tool for both baking and monitoring on the Tezos network. It provides a locally hosted graphical interface, binaries for tezos-client, tezos-node, tezos-baker, and tezos-endorser, and it builds a cache of chain data from the nodes to which it connects.",
-    category: ["Dev"],
-    parentCompany: "",
-    imageSrc: "https://tezos-kiln.org/logo.svg",
-    gitlabUrl: "https://gitlab.com/tezos-kiln/kiln",
-  },
-  {
-    name: "Objkt",
-    href: "https://objkt.com/",
-    description:
-      "The largest NFT marketplace on Tezos. Buy, Sell, Bid and view your NFTs in one place",
-    category: ["NFT"],
-    parentCompany: "Objkt",
-    imageSrc:
-      "https://pbs.twimg.com/profile_images/1447891818230726658/SjsiPLOJ_400x400.png",
-    twitterUrl: "https://twitter.com/objktcom",
-    discordUrl: "https://discord.gg/m7YFqPvmj6",
-  },
+
   {
     name: "Kukai",
     href: "https://wallet.kukai.app/",
@@ -192,20 +177,41 @@ export let apps = [
     githubUrl: "https://github.com/kukai-wallet/kukai",
   },
   {
-    name: "KickFlow",
-    href: "https://kickflow.io/",
+    name: "Beacon",
+    href: "https://www.walletbeacon.io/",
     description:
-      "A decentralized platform that enables community funding for projects on Tezos. Through Quadratic Funding, we give the community the power to take the best projects forward!",
-    category: ["Dev", "Crowdfunding"],
-    parentCompany: "KickFlow",
-    imageSrc: "https://i.imgur.com/MGmu5TF.png",
-    twitterUrl: "https://twitter.com/kickflowio",
-    discordUrl: "https://discord.gg/nzwRHu6meQ",
-    githubUrl: "https://github.com/kickflowio",
-    telegramUrl: "https://t.me/kickflow",
-    linkedinUrl: "https://www.linkedin.com/company/kickflowio/",
-    youtubeUrl: "https://www.youtube.com/channel/UCA1K1dSRsWn4gPxJ-z5wyNA",
+      "Connect your wallet with Beacon! this app is used by any tezos application that needs a wallet to connect to it.",
+    category: ["Wallet Connector", "Dev", "Tool"],
+    parentCompany: "AirGap & Papers",
+    imageSrc:
+      "https://www.walletbeacon.io/wp-content/uploads/2021/03/beacon_logoy_type_hor_padding.svg",
+    twitterUrl: "https://twitter.com/airgap_it",
+    discordUrl: "https://discord.gg/vuf4Gtnqh7",
   },
+
+  {
+    name: "Open Tezos",
+    href: "https://opentezos.com/",
+    description:
+      "Welcome Tezos Developers! Explore the technical and economic concepts behind the Tezos Network, experiment with our tutorials, or start building your own Tezos Dapp.",
+    category: ["Dev"],
+    parentCompany: "",
+    imageSrc: "https://opentezos.com/img/logo.svg",
+    gitlabUrl: "https://gitlab.com/tezos-paris-hub/OpenTezos/",
+  },
+  {
+    name: "Better Call Dev",
+    href: "https://better-call.dev/",
+    description:
+      "Tezos smart contract explorer by Baking Bad. Explore DApps, check statistics and do advanced searches on the tezos blockchain.",
+    category: [""],
+    parentCompany: "Baking Bad",
+    imageSrc:
+      "https://pbs.twimg.com/card_img/1445567890401361926/S61y3_xr?format=png&name=240x240",
+    twitterUrl: "https://twitter.com/YourBakeBuddy",
+    githubUrl: "https://github.com/baking-bad",
+  },
+
   {
     name: "Ligolang",
     href: "https://ligolang.org/",
@@ -217,26 +223,7 @@ export let apps = [
     telegramUrl: "https://t.me/LigoLang",
     gitlabUrl: "https://gitlab.com/ligolang/ligo",
   },
-  {
-    name: "Morley",
-    href: "https://gitlab.com/morley-framework/morley",
-    description: "Developer tools for the Michelson Language",
-    category: ["Dev"],
-    parentCompany: "",
-    imageSrc: "",
-    gitlabUrl: "https://gitlab.com/morley-framework/morley",
-  },
-  {
-    name: "Netezos",
-    href: "https://netezos.dev/",
-    description:
-      "Netezos is a cross-platform Tezos SDK for .NET developers, simplifying interaction with the Tezos blockchain",
-    category: ["Dev"],
-    parentCompany: "Baking Bad",
-    imageSrc: "https://i.imgur.com/ZFkDQ9Z.png",
-    githubUrl: "https://github.com/baking-bad/netezos",
-    discordUrl: "https://discord.gg/aG8XKuwsQd",
-  },
+
   {
     name: "OpenMinter",
     href: "https://github.com/tqtezos/minter",
@@ -248,16 +235,7 @@ export let apps = [
       "https://github.com/tqtezos/minter/raw/main/docs/assets/minterhead.png",
     githubUrl: "https://github.com/tqtezos/minter",
   },
-  {
-    name: "Open Tezos",
-    href: "https://opentezos.com/",
-    description:
-      "Welcome Tezos Developers! Explore the technical and economic concepts behind the Tezos Network, experiment with our tutorials, or start building your own Tezos Dapp.",
-    category: ["Dev"],
-    parentCompany: "",
-    imageSrc: "https://opentezos.com/img/logo.svg",
-    gitlabUrl: "https://gitlab.com/tezos-paris-hub/OpenTezos/",
-  },
+
   {
     name: "PyTezos",
     href: "https://pytezos.org/",
@@ -284,6 +262,40 @@ export let apps = [
     mediumUrl: "https://smartpy-io.medium.com/",
   },
   {
+    name: "Fuking Tezzardz",
+    href: "https://www.tezzardz.xyz/",
+    description:
+      "Snazzy Fukkrs On The Tezos Blockchain.  What utility do Tezzardz have? - Utility, lolz, get fukd.",
+    category: ["NFT"],
+    parentCompany: "OMGIDRAWEDIT",
+    imageSrc: "https://www.tezzardz.xyz/assets/tezzardz.gif",
+    twitterUrl: "https://twitter.com/tezzardz",
+    discordUrl: "https://discord.gg/ex5BDgx8Jc",
+  },
+  {
+    name: "Conseil",
+    href: "https://cryptonomic.tech/conseil.html",
+    description:
+      "Conseil is an indexer and API for blockchains, currently focused on the Tezos, which allows you to seamlessly run complex queries against blockchain data.",
+    category: ["Tech"],
+    parentCompany: "Cryptonomic",
+    imageSrc: "https://i.imgur.com/9Qzpeyw.png",
+    twitterUrl: "https://twitter.com/CryptonomicTech",
+    githubUrl: "https://github.com/Cryptonomic",
+    mediumUrl: "https://medium.com/the-cryptonomic-aperiodical",
+  },
+  {
+    name: "Netezos",
+    href: "https://netezos.dev/",
+    description:
+      "Netezos is a cross-platform Tezos SDK for .NET developers, simplifying interaction with the Tezos blockchain",
+    category: ["Dev"],
+    parentCompany: "Baking Bad",
+    imageSrc: "https://i.imgur.com/ZFkDQ9Z.png",
+    githubUrl: "https://github.com/baking-bad/netezos",
+    discordUrl: "https://discord.gg/aG8XKuwsQd",
+  },
+  {
     name: "Buddy Bake",
     href: "https://www.bakebuddy.xyz/",
     description:
@@ -296,6 +308,47 @@ export let apps = [
     githubUrl: "https://gitlab.com/groktech",
     telegramUrl: "https://t.me/bakebuddy",
     mediumUrl: "https://bakebuddy.medium.com/",
+  },
+  {
+    name: "Archetype",
+    href: "https://archetype-lang.org/",
+    description:
+      "A domain-specific language to develop Smart Contracts on the Tezos blockchain, with all Michelson features, plus exclusive features ",
+    category: ["Tool", "Dev"],
+    parentCompany: "edukera",
+    imageSrc: "https://archetype-lang.org/images/Illu-home.svg",
+    twitterUrl: "https://twitter.com/archetype_lang",
+    githubUrl: "https://github.com/edukera/archetype-lang",
+  },
+  {
+    name: "Dip up",
+    href: "https://dipdup.net/",
+    description:
+      "full stack framework for building selective Tezos indexers, service workers, and reactive UI components",
+    category: ["Dev"],
+    parentCompany: "Baking Bad",
+    imageSrc:
+      "https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=2,format=auto/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-28427.appspot.com%2Fo%2Fspaces%252F-MYAMf2BH-LOIc8YWoHV%252Favatar-1618502720833.png%3Fgeneration%3D1618502721094932%26alt%3Dmedia",
+    discordUrl: "https://discord.gg/aG8XKuwsQd",
+  },
+  {
+    name: "Kiln",
+    href: "https://tezos-kiln.org/",
+    description:
+      "Kiln is a tool for both baking and monitoring on the Tezos network. It provides a locally hosted graphical interface, binaries for tezos-client, tezos-node, tezos-baker, and tezos-endorser.",
+    category: ["Dev"],
+    parentCompany: "",
+    imageSrc: "https://tezos-kiln.org/logo.svg",
+    gitlabUrl: "https://gitlab.com/tezos-kiln/kiln",
+  },
+  {
+    name: "Morley",
+    href: "https://gitlab.com/morley-framework/morley",
+    description: "Developer tools for the Michelson Language",
+    category: ["Dev"],
+    parentCompany: "",
+    imageSrc: "",
+    gitlabUrl: "https://gitlab.com/morley-framework/morley",
   },
   // {
   //   name: "Sol2Ligo",
