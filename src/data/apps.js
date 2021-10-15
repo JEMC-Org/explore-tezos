@@ -85,19 +85,6 @@ export let apps = [
     discordUrl: "https://discord.gg/CbdbvwtwkM",
     telegramUrl: "https://t.me/pixelpotus",
   },
-
-  {
-    name: "Pixel Potus",
-    href: "https://www.pixelpotus.com/",
-    description:
-      "PixelPotus is a digital collectable competition built on the Tezos blockchain.",
-    category: ["NFT", "Gaming"],
-    parentCompany: "",
-    imageSrc: "https://www.pixelpotus.com/img/potus.c3aeacbd.gif",
-    twitterUrl: "https://twitter.com/PixelPotus",
-    discordUrl: "https://discord.gg/CbdbvwtwkM",
-    telegramUrl: "https://t.me/pixelpotus",
-  },
   {
     name: "Plenty",
     href: "https://www.plentydefi.com/",
