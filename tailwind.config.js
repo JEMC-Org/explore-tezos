@@ -12,6 +12,7 @@ module.exports = {
       descriptions: "#787D82",
       white: "#FFFFFF",
       gold: "#f1c232",
+      red: "#E80101",
     },
     backgroundColor: {
       primary: "#0F61FF",
