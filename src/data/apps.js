@@ -26,7 +26,7 @@ export let apps = [
     redditUrl: "https://www.reddit.com/r/MadFishCommunity/",
     twitterUrl: "https://twitter.com/madfishofficial",
     discordUrl: "https://discord.com/invite/qFRZ8kVzkv",
-    githubUrl: "https://github.com/madfish-solutions/templewallet-extension",
+    githubUrl: "https://github.com/madfish-solutions/quipuswap-webapp",
     telegramUrl: "https://t.me/MadFishCommunity",
     linkedinUrl: "https://t.me/MadFishCommunity",
   },
@@ -67,12 +67,10 @@ export let apps = [
     parentCompany: "Tezos Domains",
     imageSrc:
       "https://d33wubrfki0l68.cloudfront.net/5c38e6c562ae78abd4114db5d484ea7a88eb50eb/b7611/assets/img/td-logo01-bright.svg",
-    twitterUrl: "https://twitter.com/AirGap_it",
-    discordUrl: "https://discord.gg/T5ZKuuErWw",
-    githubUrl: "https://github.com/airgap-it",
-    telegramUrl: "https://t.me/AirGap",
-    linkedinUrl: "https://www.linkedin.com/company/papers.ch/",
-    mediumUrl: "https://blog.tezos.domains/",
+    twitterUrl: "https://twitter.com/tezosdomains",
+    gitlabUrl: "https://gitlab.com/tezos-domains",
+    telegramUrl: "https://t.me/tezosdomains",
+    mediumUrl: "https://gitlab.com/tezos-domains",
   },
 
   {
@@ -208,8 +206,9 @@ export let apps = [
     parentCompany: "Baking Bad",
     imageSrc:
       "https://pbs.twimg.com/card_img/1445567890401361926/S61y3_xr?format=png&name=240x240",
-    twitterUrl: "https://twitter.com/YourBakeBuddy",
+    twitterUrl: "https://twitter.com/TezosBakingBad",
     githubUrl: "https://github.com/baking-bad",
+    telegramUrl: "tg://resolve?domain=baking_bad_chat",
   },
 
   {
