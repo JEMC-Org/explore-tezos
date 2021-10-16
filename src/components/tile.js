@@ -29,7 +29,7 @@ export default function Tile({ app }) {
       <div className="absolute bottom-0 left-0 flex flex-row p-2">
         {app.href ? (
           <a
-            className=" px-2 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+            className=" px-1.5 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
             href={app.href}
             target="_blank"
             rel="noopener noreferrer"
@@ -39,7 +39,7 @@ export default function Tile({ app }) {
         ) : null}
         {app.twitterUrl ? (
           <a
-            className=" px-2 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+            className=" px-1.5 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
             href={app.twitterUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -49,7 +49,7 @@ export default function Tile({ app }) {
         ) : null}
         {app.redditUrl ? (
           <a
-            className=" px-2 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+            className=" px-1.5 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
             href={app.redditUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -59,7 +59,7 @@ export default function Tile({ app }) {
         ) : null}
         {app.telegramUrl ? (
           <a
-            className=" px-2 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+            className=" px-1.5 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
             href={app.telegramUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -69,7 +69,7 @@ export default function Tile({ app }) {
         ) : null}
         {app.discordUrl ? (
           <a
-            className=" px-2 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+            className=" px-1.5 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
             href={app.discordUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -79,7 +79,7 @@ export default function Tile({ app }) {
         ) : null}
         {app.githubUrl ? (
           <a
-            className=" px-2 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+            className=" px-1.5 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
             href={app.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -89,7 +89,7 @@ export default function Tile({ app }) {
         ) : null}
         {app.gitlabUrl ? (
           <a
-            className=" px-2 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+            className=" px-1.5 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
             href={app.gitlabUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -99,7 +99,7 @@ export default function Tile({ app }) {
         ) : null}
         {app.linkedinUrl ? (
           <a
-            className=" px-2 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+            className=" px-1.5 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
             href={app.linkedinUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -109,7 +109,7 @@ export default function Tile({ app }) {
         ) : null}
         {app.youtubeUrl ? (
           <a
-            className=" px-2 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+            className=" px-1.5 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
             href={app.youtubeUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -119,7 +119,7 @@ export default function Tile({ app }) {
         ) : null}
         {app.mediumUrl ? (
           <a
-            className=" px-2 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+            className=" px-1.5 py-1 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
             href={app.mediumUrl}
             target="_blank"
             rel="noopener noreferrer"
