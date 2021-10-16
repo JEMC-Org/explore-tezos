@@ -13,7 +13,7 @@ export let apps = [
     discordUrl: "https://discord.com/invite/qFRZ8kVzkv",
     githubUrl: "https://github.com/madfish-solutions/templewallet-extension",
     telegramUrl: "https://t.me/MadFishCommunity",
-    linkedinUrl: "https://t.me/MadFishCommunity",
+    linkedinUrl: "https://www.linkedin.com/company/mad-fish-solutions/",
   },
   {
     name: "QuipuSwap",
@@ -28,7 +28,7 @@ export let apps = [
     discordUrl: "https://discord.com/invite/qFRZ8kVzkv",
     githubUrl: "https://github.com/madfish-solutions/quipuswap-webapp",
     telegramUrl: "https://t.me/MadFishCommunity",
-    linkedinUrl: "https://t.me/MadFishCommunity",
+    linkedinUrl: "https://www.linkedin.com/company/mad-fish-solutions/",
   },
   {
     name: "Objkt",
@@ -72,7 +72,6 @@ export let apps = [
     telegramUrl: "https://t.me/tezosdomains",
     mediumUrl: "https://gitlab.com/tezos-domains",
   },
-
   {
     name: "Pixel Potus",
     href: "https://www.pixelpotus.com/",
@@ -99,7 +98,6 @@ export let apps = [
     telegramUrl: "https://t.me/PlentyDeFi",
     discordUrl: "https://discord.gg/9wZ4CuvkuJ",
   },
-
   {
     name: "TzKT",
     href: "https://tzkt.io/",
@@ -108,7 +106,6 @@ export let apps = [
     parentCompany: "Baking Bad",
     imageSrc: "https://tzkt.io/logo.svg",
   },
-
   {
     name: "AirGap",
     href: "https://airgap.it/",
@@ -161,7 +158,22 @@ export let apps = [
     mediumUrl: "https://kolibri-xtz.medium.com/",
     discordUrl: "https://discord.gg/nkpSN467",
   },
-
+  {
+    name: "Smartlink",
+    href: "https://www.smartlink.so/",
+    description:
+      "Trust as a Service for the new Web. Smartlink is developing a sustainable ecosystem of decentralized and scalable applications to bring the needed infrastructure to our new economic paradigms.",
+    category: ["DeFi", "Featured"],
+    parentCompany: "",
+    imageSrc: "https://app.smartlink.so/img/full-logo-light.3fe90ec9.svg",
+    twitterUrl: "https://twitter.com/smartlinkHQ",
+    discordUrl: "https://discord.com/invite/Rut5xxqGWQ",
+    githubUrl: "https://github.com/Smartlinkhub",
+    telegramUrl: "https://t.me/smartlinkofficial",
+    linkedinUrl: "https://www.linkedin.com/company/smartlinkso",
+    redditUrl: "https://www.reddit.com/user/Teamsmartlink/",
+    youtubeUrl: "https://www.youtube.com/channel/UCAdmLEyI8B-G-np9T_AFf_A",
+  },
   {
     name: "Kukai",
     href: "https://wallet.kukai.app/",
@@ -186,7 +198,18 @@ export let apps = [
     twitterUrl: "https://twitter.com/airgap_it",
     discordUrl: "https://discord.gg/vuf4Gtnqh7",
   },
-
+  {
+    name: "Marmott",
+    href: "https://marmott.io/",
+    description: "The future of Real Estate on Tezos.",
+    category: ["NFT"],
+    parentCompany: "Marmott",
+    imageSrc:
+      "https://pbs.twimg.com/profile_images/1414621441081987074/do_-CPoj_400x400.jpg",
+    telegramUrl: "https://t.co/rHZRI1Lt0s?amp=1",
+    twitterUrl: "https://twitter.com/Marmott_io",
+    githubUrl: "https://github.com/marmott-io",
+  },
   {
     name: "Open Tezos",
     href: "https://opentezos.com/",
@@ -210,7 +233,6 @@ export let apps = [
     githubUrl: "https://github.com/baking-bad",
     telegramUrl: "tg://resolve?domain=baking_bad_chat",
   },
-
   {
     name: "Ligolang",
     href: "https://ligolang.org/",
@@ -222,7 +244,6 @@ export let apps = [
     telegramUrl: "https://t.me/LigoLang",
     gitlabUrl: "https://gitlab.com/ligolang/ligo",
   },
-
   {
     name: "OpenMinter",
     href: "https://github.com/tqtezos/minter",
@@ -234,7 +255,6 @@ export let apps = [
       "https://github.com/tqtezos/minter/raw/main/docs/assets/minterhead.png",
     githubUrl: "https://github.com/tqtezos/minter",
   },
-
   {
     name: "PyTezos",
     href: "https://pytezos.org/",
@@ -270,6 +290,19 @@ export let apps = [
     imageSrc: "https://www.tezzardz.xyz/assets/tezzardz.gif",
     twitterUrl: "https://twitter.com/tezzardz",
     discordUrl: "https://discord.gg/ex5BDgx8Jc",
+  },
+  {
+    name: "Staker Dao",
+    href: "https://www.stakerdao.com/",
+    description:
+      "Enabling the vibrant future of decentralized finance. By the community. For the community.",
+    category: ["DeFi"],
+    parentCompany: "",
+    imageSrc:
+      "https://aws1.discourse-cdn.com/standard10/uploads/staker_dao/original/1X/5987584890ca7261b43d96a1103d0a077ff7095d.png",
+    twitterUrl: "https://twitter.com/stakerdao",
+    githubUrl: "https://github.com/StakerDAO",
+    telegramUrl: "https://t.me/stakercommunity",
   },
   {
     name: "Conseil",
@@ -348,6 +381,229 @@ export let apps = [
     parentCompany: "",
     imageSrc: "",
     gitlabUrl: "https://gitlab.com/morley-framework/morley",
+  },
+  {
+    name: "Tzstats",
+    href: "https://tzstats.com/",
+    description:
+      "TzStats is the first Blockchain Analytics Explorer for Tezos.",
+    category: ["Tool"],
+    parentCompany: "Blockwatch",
+    imageSrc:
+      "https://pbs.twimg.com/profile_images/1292754365460164608/4XT7kZT6_400x400.jpg",
+    twitterUrl: "https://twitter.com/tzstats",
+    discordUrl: "https://discord.com/invite/D5e98Hw",
+    githubUrl: "https://github.com/blockwatch-cc/tzindex",
+  },
+  {
+    name: "SpaceFarm",
+    href: "https://www.spacefarm.xyz/",
+    description:
+      "Tezos DeFi platform FLAME. SpaceFarm. Decentralized Exchange. Liquidity pool.",
+    category: ["DeFi", "DAO"],
+    parentCompany: "SpaceFarm",
+    imageSrc: "https://www.spacefarm.xyz/images/avatar.png",
+    twitterUrl: "https://twitter.com/FlameDeFi",
+    discordUrl: "https://discord.com/invite/cz4zXp7Rsh",
+    githubUrl: "https://github.com/flamedefi/SpaceFarm",
+    telegramUrl: "https://t.me/FLAMEtokenFarm",
+    mediumUrl: "https://flamedefi.medium.com/flame-defi-fb8f5fc8baa9",
+  },
+  {
+    name: "OneOf",
+    href: "https://www.oneof.com/",
+    description:
+      "OneOf is a green NFT platform built for the music community to connect fans and collectors at all levels with their favorite artists.",
+    category: ["NFT"],
+    parentCompany: "OneOF",
+    imageSrc:
+      "https://pbs.twimg.com/profile_images/1397164534624837637/wRzkz4Io_400x400.jpg",
+    twitterUrl: "https://twitter.com/oneofnft",
+    discordUrl: "https://discord.com/invite/oneofnft",
+  },
+  {
+    name: "SpiceySwap",
+    href: "https://spicyswap.xyz/#/",
+    description:
+      "SpicySwap is a next-generation DEX built by Genius Contracts specifically for token-to-token swaps on Tezos. SpicySwap is governed by SalsaDAO ($sDAO), which is the governance entity for the wider suite of Genius Contracts platforms and products.",
+    category: ["DeFi"],
+    parentCompany: "Genius Contracts",
+    imageSrc: "https://docs.spicyswap.xyz/img/spicy.png",
+    twitterUrl: "https://twitter.com/geniuscontracts",
+    discordUrl: "https://discord.gg/E2kK38mb",
+    mediumUrl: "https://geniuscontracts.medium.com/",
+    telegramUrl: "https://t.me/salsadao",
+  },
+  {
+    name: "USDtez",
+    href: "https://usdtz.com/",
+    description:
+      "Liquidity for Tezos Trading: scalable, on-chain, programmable",
+    category: ["DeFi"],
+    parentCompany: "USD Tez Project",
+    imageSrc: "https://usdtz.com/usdtz_new_white.png",
+    twitterUrl: "https://twitter.com/usdtz",
+    githubUrl: "https://github.com/usdtz",
+    mediumUrl: "https://medium.com/usdtz",
+    telegramUrl: "https://t.me/USDtez",
+    redditUrl: "https://reddit.com/r/usdtz",
+  },
+  {
+    name: "Electis",
+    href: "https://www.electis.app",
+    description: "Safe voting for grassroots communities on tezos",
+    category: ["Tool"],
+    parentCompany: "Electis",
+    imageSrc: "https://www.electis.app/static/landing/images/logo.svg",
+    gitlabUrl: "https://gitlab.com/electisNGO/electeez/-/tree/master",
+  },
+  {
+    name: "Stabletez",
+    href: "https://stabletez.com/",
+    description:
+      "StableTez is an effort by Tezos community members, services partners, and financial-backers of the project to provide Tezos-on-chain stable assets for financial instruments and for economically-efficient Tezos-token trading",
+    category: ["DeFi"],
+    parentCompany: "Stable tech",
+    imageSrc: "https://stabletez.com/stabletezALT-logo.png",
+    twitterUrl: "https://twitter.com/stabletez",
+    telegramUrl: "https://t.me/stabletz",
+  },
+  {
+    name: "Wrap",
+    href: "https://www.tzwrap.com/",
+    description: "A decentralized bridge between Ethereum and Tezos.",
+    category: ["DeFi"],
+    parentCompany: "",
+    imageSrc: "https://www.tzwrap.com/img/logo.png",
+    twitterUrl: "https://twitter.com/Wrap_Protocol",
+    githubUrl: "https://github.com/bender-labs",
+    telegramUrl: "https://t.me/benderlabs",
+    discordUrl: "https://discord.gg/tZf8M89BRe",
+  },
+  {
+    name: "Bunny Knights",
+    href: "https://www.bunnyknights.com/",
+    description: "MEDIEVAL BUNNIES ON TEZOS BLOCKCHAIN! NFTs and Game",
+    category: ["NFT"],
+    parentCompany: "",
+    imageSrc: "https://www.bunnyknights.com/logoNew.png",
+    twitterUrl: "https://twitter.com/BunnyKnights",
+    discordUrl: "https://discord.com/invite/WMJHqN5zNx",
+  },
+  {
+    name: "Tezos.gold",
+    href: "https://tezos.gold/",
+    description:
+      "Own Gold (GLD) on Tezos as a Gold Tez (GLDtz) tokenv same for Silver, Platinum and Palladium",
+    category: ["NFT"],
+    parentCompany: "",
+    imageSrc:
+      "https://pbs.twimg.com/profile_images/1364370719581245443/LM6OX47M_400x400.jpg",
+    twitterUrl: "https://twitter.com/tezosgold",
+    telegramUrl: "https://t.me/GoldTez",
+  },
+  {
+    name: "Youves",
+    href: "https://youves.com/",
+    description: "Your tool on Tezos for asset creation and management.",
+    category: ["DeFi"],
+    parentCompany: "",
+    imageSrc: "https://youves.com/wp-content/uploads/2021/04/youves.svg",
+    twitterUrl: "https://twitter.com/youves_com",
+    discordUrl: "https://discord.gg/2TGyP8UEJF",
+    mediumUrl: "https://medium.com/@youves",
+  },
+  {
+    name: "Alien's Farm",
+    href: "https://aliens.farm",
+    description: "The first alien yield farm on Tezos.",
+    category: ["DeFi"],
+    parentCompany: "DegenTech",
+    imageSrc:
+      "https://pbs.twimg.com/profile_images/1384898273928962055/4IRfijR2_400x400.jpg",
+    twitterUrl: "https://twitter.com/tezaliensfarm",
+    telegramUrl: "https://t.me/aliensfarm",
+    githubUrl: "https://github.com/degentech/aliensfarm",
+  },
+  {
+    name: "Yupana Finance",
+    href: "https://yupana.finance/",
+    description:
+      "Yupana.Finance is an open-source Tezos-based lending protocol.",
+    category: ["DeFi"],
+    parentCompany: "",
+    imageSrc:
+      "https://pbs.twimg.com/profile_images/1410933879012265994/3aTDa0hI_400x400.jpg",
+    twitterUrl: "https://twitter.com/YupanaFinance",
+    githubUrl: "https://github.com/madfish-solutions/yupana-protocol-core",
+    telegramUrl: "https://t.me/MadFishCommunity",
+    discordUrl: "https://discord.com/invite/qFRZ8kVzkv",
+    redditUrl: "https://www.reddit.com/r/MadFishCommunity/",
+    youtubeUrl: "https://www.youtube.com/channel/UCUp80EXfJEigks3xU5hiwyA",
+  },
+  {
+    name: "TezEx",
+    href: "https://tezex.io/about",
+    description:
+      "TezEx is a next-generation decentralized exchange and decentralized cross-chain bridge built on Tezos blockchain.",
+    category: ["DeFi"],
+    parentCompany: "StableTech",
+    imageSrc: "https://tezex.io/static/media/TezexLogo.519afb98.svg",
+    twitterUrl: "https://twitter.com/tezosexchange",
+    telegramUrl: "https://www.telegram.com/errors/404/",
+    githubUrl: "https://github.com/degentech/aliensfarm",
+    discordUrl: "https://discord.com/invite/VZPAmEJVsC",
+  },
+  {
+    name: "SalsaDAO",
+    href: "https://salsadao.xyz/#/",
+    description:
+      "The Salsa DAO ecosystem is a decentralized finance (DeFi) ecosystem. NFTs, Casino, Farms, DEX.",
+    category: ["DeFi", "NFT"],
+    parentCompany: "Genius Contracts",
+    imageSrc: "https://salsadao.xyz/assets/sDAO.png",
+    telegramUrl: "https://t.me/salsadao",
+    redditUrl: "https://www.reddit.com/r/SalsaDAO/",
+    githubUrl: "https://github.com/degentech/aliensfarm",
+    twitterUrl: "https://twitter.com/GeniusContracts",
+    discordUrl: "https://discord.com/invite/ZNdNhaKfkY",
+    mediumUrl: "https://geniuscontracts.medium.com/",
+  },
+  {
+    name: "Farm Soil",
+    href: "https://farmsoil.xyz/",
+    description:
+      "Farming shouldn’t be thought of as a bad user experience. Welcome to $FARM, a Tezos based farming platform focused on the user and built by community members.",
+    category: ["DeFi"],
+    parentCompany: "",
+    imageSrc: "https://farmsoil.xyz/images/app_logo_green.png",
+    twitterUrl: "https://twitter.com/farmsomesoil",
+    telegramUrl: "https://t.me/farmsomesoil",
+    mediumUrl: "https://farmsoil.medium.com/",
+  },
+  {
+    name: "TezID",
+    href: "https://tezid.net/",
+    description:
+      "TezID is an identity oracle for Tezos It allows users to prove that they own certain digital property such as an email address, phone number, etc. And soon even government issued ID’s.",
+    category: ["Tool"],
+    parentCompany: "TezID",
+    imageSrc: "https://tezid.net/logo-notext.svg",
+    twitterUrl: "https://twitter.com/tezid_net",
+    githubUrl: "https://github.com/tezid",
+  },
+  {
+    name: "Tezsure",
+    href: "https://tezsure.com/",
+    description:
+      "Tezsure builds developer tools and DeFi products on the Tezos blockchain.",
+    category: ["Tool"],
+    parentCompany: "Tezsure",
+    imageSrc: "https://avatars.githubusercontent.com/u/50651561?s=200&v=4",
+    twitterUrl: "https://twitter.com/tezsure",
+    linkedinUrl: "https://in.linkedin.com/company/tezsure",
+    mediumUrl: "https://medium.com/tezsure",
+    githubUrl: "https://github.com/Tezsure/",
   },
   // {
   //   name: "Sol2Ligo",
