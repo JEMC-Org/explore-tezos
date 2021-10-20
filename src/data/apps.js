@@ -494,13 +494,72 @@ export let apps = [
     name: "Tezos.gold",
     href: "https://tezos.gold/",
     description:
-      "Own Gold (GLD) on Tezos as a Gold Tez (GLDtz) tokenv same for Silver, Platinum and Palladium",
+      "Own Gold (GLD) on Tezos as a Gold Tez (GLDtz) token same for Silver, Platinum and Palladium",
     category: ["NFT"],
-    parentCompany: "",
+    parentCompany: "Tezos Stable Technologies",
     imageSrc:
       "https://pbs.twimg.com/profile_images/1364370719581245443/LM6OX47M_400x400.jpg",
     twitterUrl: "https://twitter.com/tezosgold",
     telegramUrl: "https://t.me/GoldTez",
+  },
+  {
+    name: "Tezos.coffee",
+    href: "https://tezos.coffee/",
+    description:
+      "Available in fungible and non-fungible token (NFT) variety blends. Taste the sweet aroma of coffee bean digital asset tokens issued on Tezos.",
+    category: ["NFT"],
+    parentCompany: "Tezos Stable Technologies",
+    imageSrc: "https://stabletez.com/Ctz.png",
+  },
+  {
+    name: "Stable Tech",
+    href: "https://stable.tech/",
+    description:
+      "coordinates the building of stable, scalable, open-source, technologies for the advancement of open Tezos DeFi, and for the betterment of the Tezos ecosystem.",
+    category: ["DeFi"],
+    parentCompany: "Tezos Stable Technologies",
+    imageSrc: "https://stable.tech/stabletech.png",
+    twitterUrl: "https://twitter.com/stabletech",
+    mediumUrl: "https://medium.com/stable",
+  },
+  {
+    name: "Tezos Finance",
+    href: "https://www.tezos.finance/",
+    description:
+      "A decentralized lending platform to expand the Tezos DeFi ecosystem.",
+    category: ["DeFi"],
+    parentCompany: "Tezos Stable Technologies",
+    imageSrc: "https://stable.tech/newtezfin.svg",
+    twitterUrl: "https://twitter.com/TezosFinance",
+    telegramUrl: "https://t.me/TezFin",
+  },
+  {
+    name: "Rocket",
+    href: "https://rocketlaunchpad.io/",
+    description:
+      "The link between Tezos based projects and early investors. All projects will be vetted for code, quality and overall objective, bringing users and projects together",
+    category: ["DeFi"],
+    parentCompany: "Crunchy",
+    imageSrc:
+      "https://pbs.twimg.com/profile_images/1419484137367515136/BHSvs59m_400x400.jpg",
+    twitterUrl: "https://twitter.com/rocketlaunchpd",
+    telegramUrl: "https://t.me/rocketlaunchpd",
+    mediumUrl: "https://rocketlaunchpad.medium.com/",
+    discordUrl: "https://discord.com/invite/aQVBj7KKxf",
+  },
+  {
+    name: "Instaraise",
+    href: "https://www.instaraise.io/",
+    description:
+      "A decentralised fundraising and Incubation platform. Aiming to empower projects with fundraising ability while developing loyal users. Allowing retailer investors and users to access early investment deals.",
+    category: ["DeFi"],
+    parentCompany: "Instaraise",
+    imageSrc:
+      "https://pbs.twimg.com/profile_images/1431234508502667264/nBpx68MB_400x400.jpg",
+    twitterUrl: "https://twitter.com/Instaraise",
+    telegramUrl: "https://t.me/Instaraise",
+    mediumUrl:
+      "https://medium.com/instaraise-official/and-thats-a-wrap-of-our-community-presale-pure-facts-e68aba63f27",
   },
   {
     name: "Youves",
