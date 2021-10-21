@@ -38,7 +38,7 @@ export let apps = [
     category: ["NFT"],
     parentCompany: "Objkt",
     imageSrc:
-      "https://pbs.twimg.com/profile_images/1447891818230726658/SjsiPLOJ_400x400.png",
+      "https://pbs.twimg.com/profile_images/1450055252464504834/osSqCMiW_400x400.png",
     twitterUrl: "https://twitter.com/objktcom",
     discordUrl: "https://discord.gg/m7YFqPvmj6",
   },
