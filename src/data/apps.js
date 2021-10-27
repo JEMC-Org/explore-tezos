@@ -101,7 +101,8 @@ export let apps = [
   {
     name: "TzKT",
     href: "https://tzkt.io/",
-    description: "Tezos blockchain explorer by Baking Bad",
+    description:
+      "Tezos blockchain explorer by Baking Bad. View transactions, keep track of Bakers, view Tezos Governance progress and much more!",
     category: ["Block Explorer", "Tool", "Featured"],
     parentCompany: "Baking Bad",
     imageSrc: "https://tzkt.io/logo.svg",
@@ -691,7 +692,7 @@ export let apps = [
     name: "TezDice",
     href: "https://tezdice.com/",
     description:
-      "A TypeScript library suite for development on the Tezos blockchain.",
+      "The first Tezos dice website. Fast, Secure and Provably Fair Crypto Currency Betting.",
     category: ["Gaming"],
     parentCompany: "ECAD Labs",
     imageSrc:
@@ -713,7 +714,7 @@ export let apps = [
     name: "Play With Brio",
     href: "https://playwithbrio.com/home",
     description:
-      "A TypeScript library suite for development on the Tezos blockchain.",
+      "Welcome to the first ever eSports skill based platform on the Tezos blockchain, featuring a unique Solitaire square-off for Solitaire aficionados to test their skills against others.",
     category: ["Gaming"],
     parentCompany: "Interpop LLC",
     imageSrc:
@@ -766,7 +767,7 @@ export let apps = [
   {
     name: "HERA",
     href: "https://heranetwork.co/",
-    description: "A social experiment on the Tezos blockchain.",
+    description: "A Defi Hub on Tezos network.",
     category: ["Gaming", "DeFi"],
     parentCompany: "Olympus Dev Team",
     imageSrc: "https://heranetwork.co/icons/ic_banner.png",
