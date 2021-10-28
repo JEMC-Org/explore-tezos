@@ -9,9 +9,7 @@ export default function Header() {
       <img
         src={beta}
         alt="beta"
-        width="75"
-        height="75"
-        className="absolute top-0 right-0"
+        className="absolute top-0 right-0 w-10 h-10 sm:w-20 sm:h-20"
       />
     </div>
   );
