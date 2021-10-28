@@ -89,7 +89,7 @@ export let apps = [
     href: "https://www.plentydefi.com/",
     description:
       "Plenty is expanding DeFi use cases on Tezos towards a full scale decentralized financial ecosystem. Empowering traders, liquidity providers & developers to participate in an open financial marketplace.",
-    category: ["DeFi, Featured"],
+    category: ["DeFi", "Featured"],
     parentCompany: "Tezsure & DGH",
     imageSrc:
       "https://www.plentydefi.com/static/media/plentytoharvest.dd930070.svg",
