@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { RadioGroup } from "@headlessui/react";
-import PropTypes from "prop-types";
 import Tile from "./tile";
 import { apps } from "../data/apps";
 
-export default function TileList({ category }) {
+export default function TileList() {
   const [appsState, setAppsState] = useState(apps);
   const [filter, setFilter] = useState("All");
 
@@ -172,7 +171,3 @@ export default function TileList({ category }) {
     </div>
   );
 }
-
-TileList.propTypes = {
-  category: PropTypes.string.isRequired,
-};
