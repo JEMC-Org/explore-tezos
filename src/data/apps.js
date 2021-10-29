@@ -319,6 +319,17 @@ export let apps = [
     discordUrl: "https://discord.com/invite/yphDGgYzrA",
   },
   {
+    name: "McLaren Racing Collective",
+    href: "https://mclarenracingcollective.com/",
+    description:
+      "The McLaren Racing Collective, powered by Tezos, is an innovative platform where fans and collectors can purchase McLaren Racing digital collectibles or non-fungible tokens (NFTs).",
+    category: ["NFT", "Gaming"],
+    parentCompany: "McLaren",
+    imageSrc: "https://collectible.playground.sweet.io/static/mcl/step-2.png",
+    twitterUrl: "https://twitter.com/sweet",
+    linkedinUrl: "https://www.linkedin.com/company/sweet.io/",
+  },
+  {
     name: "TezID",
     href: "https://tezid.net/",
     description:
@@ -728,18 +739,6 @@ export let apps = [
     mediumUrl: "https://medium.com/the-cryptonomic-aperiodical",
   },
   {
-    name: "Galleon",
-    href: "https://cryptonomic.tech/galleon.html",
-    description:
-      "Galleon is a software wallet for the Tezos blockchain. An open source desktop wallet, supports Ledger devices.",
-    category: ["Wallet"],
-    parentCompany: "Cryptonomic",
-    imageSrc: "https://cryptonomic.tech/img/banner_logo.svg",
-    twitterUrl: "https://twitter.com/CryptonomicTech",
-    mediumUrl: "https://medium.com/the-cryptonomic-aperiodical",
-    githubUrl: "https://github.com/Cryptonomic",
-  },
-  {
     name: "TezTracker",
     href: "https://teztracker.com/",
     description:
@@ -921,7 +920,7 @@ export let apps = [
     githubUrl: "https://github.com/edukera/archetype-lang",
   },
   {
-    name: "Dip up",
+    name: "Dip dup",
     href: "https://dipdup.net/",
     description:
       "full stack framework for building selective Tezos indexers, service workers, and reactive UI components",
@@ -964,6 +963,7 @@ export let apps = [
     mediumUrl: "https://rocketlaunchpad.medium.com/",
     discordUrl: "https://discord.com/invite/aQVBj7KKxf",
   },
+
   // {
   //   name: "Sol2Ligo",
   //   href: "https://madfish-solutions.github.io/sol2ligo/",
