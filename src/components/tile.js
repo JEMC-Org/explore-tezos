@@ -16,14 +16,10 @@ import {
 
 export default function Tile({ app }) {
   return (
-    <div className="w-full h-auto mx-h-10">
+    <div className="w-full h-auto mx-h-10 bg-secondary">
       <a href={app.href} target="_blank" rel="noopener noreferrer">
         <div className="flex justify-center rounded-lg h-20 w-auto">
-          <img
-            src={app.imageSrc}
-            alt={app.name}
-            className="bg-white max-h-20"
-          />
+          <img src={app.imageSrc} alt={app.name} className="max-h-20 rounded" />
         </div>
         <div className="m-1 pt-2 pb-10">
           <h3 className="text-titles">{app.name}</h3>
