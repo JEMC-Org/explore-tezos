@@ -1,6 +1,6 @@
 module.exports = {
   purge: [],
-  //darkMode: 'media', // or 'media' or 'class'
+  darkMode: "media",
   theme: {
     extend: {
       animation: ["motion-safe"],
@@ -8,14 +8,16 @@ module.exports = {
     textColor: {
       primary: "#0F61FF",
       secondary: "#1D2227",
-      titles: "#4A4E52",
-      descriptions: "#787D82",
+      titles: "#FFFFFF",
+      descriptions: "#F2F3F7",
       white: "#FFFFFF",
       gold: "#f1c232",
       red: "#E80101",
     },
     backgroundColor: {
-      primary: "#0F61FF",
+      primary: "#263042",
+      secondary: "#1D2227",
+      buttonPrimary: "#0F61FF",
       white: "#FFFFFF",
     },
     borderColor: {
