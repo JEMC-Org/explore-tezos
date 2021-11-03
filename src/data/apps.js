@@ -426,6 +426,16 @@ export let apps = [
     gitlabUrl: "https://gitlab.com/tzstamp/server",
   },
   {
+    name: "Marigold",
+    href: "https://marigold.dev/",
+    description: "Testing and implementing Tezos Protocol Upgrade Proposals",
+    category: ["Open Source"],
+    parentCompany: "Marigold",
+    imageSrc: "https://marigold.dev/images/svg/red/Logo-Marigold-Rouge.svg",
+    gitlabUrl: "https://gitlab.com/marigold",
+    twitterUrl: "https://twitter.com/Marigold_Dev",
+  },
+  {
     name: "SpiceySwap",
     href: "https://spicyswap.xyz/#/",
     description:
@@ -856,6 +866,40 @@ export let apps = [
     telegramUrl: "https://t.me/heranetwork",
   },
   {
+    name: "My Tezos Defi",
+    href: "https://www.mytezosdefi.com/",
+    description:
+      "Track your tokens and investments across multiple DeFi platforms on the Tezos blockchain",
+    category: ["DeFi"],
+    parentCompany: "Claudebarde",
+    imageSrc: "https://www.mytezosdefi.com/images/logo.png",
+    twitterUrl: "https://twitter.com/MyTezosDefi",
+    githubUrl: "https://github.com/claudebarde/my-tezos-defi",
+  },
+  {
+    name: "XTZ.News",
+    href: "https://xtz.news/",
+    description:
+      "A Tezos News Journalistic Hub. Stay up to date with everything happening on Tezos.",
+    category: ["Tool"],
+    parentCompany: "XTZ.News",
+    imageSrc: "https://xtz.news/wp-content/uploads/2020/10/XTZ-News-1.png",
+    twitterUrl: "https://twitter.com/XTZNews",
+  },
+  {
+    name: "Bazaar NFT",
+    href: "https://bazaarnft.xyz/",
+    description:
+      "Bazaar Market is the first ever carbon-negative NFT market, powered by Tezos.",
+    category: ["NFT"],
+    parentCompany: "Mclntyre Industries",
+    imageSrc: "https://bazaarnft.xyz/static/media/logo.97ea2d1d.svg",
+    twitterUrl: "https://twitter.com/BazartNFT",
+    GithubUrl: "https://github.com/BazaarMarket/Bazaar-Market",
+    DiscordUrl: "https://discord.com/invite/mnYZwv8s5a",
+    TelegramdUrl: "https://t.me/joinchat/L_izbzRXxLNhNTY5",
+  },
+  {
     name: "Guild Token",
     href: "https://guildtoken.io/",
     description:
@@ -1123,7 +1167,7 @@ export let apps = [
     name: "Sweet",
     href: "https://about.sweet.io/",
     description:
-      "Creators of AirGap, Wallet Beacon and more. They are also some pretty cool guys :D",
+      "Sweet empowers brands to deploy NFTs to broader consumer bases through immersive & integrated experiences, driving new revenue & engagement.",
     category: ["NFT"],
     parentCompany: "Seet",
     imageSrc:
