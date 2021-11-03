@@ -3,7 +3,7 @@ export let apps = [
     name: "Temple Wallet",
     href: "https://templewallet.com/",
     description:
-      "A Tezos browser extension wallet by MadFish Solutions. Quipuswap integrated, view NFT in your wallet.",
+      "A Tezos browser extension wallet by MadFish Solutions. Quipuswap integrated, view NFTs in your wallet. Top up Tezos from various other cryptos.",
     category: ["Wallet", "Open Source", "Featured"],
     parentCompany: "MadFish Solutions",
     imageSrc:
@@ -426,6 +426,16 @@ export let apps = [
     gitlabUrl: "https://gitlab.com/tzstamp/server",
   },
   {
+    name: "Marigold",
+    href: "https://marigold.dev/",
+    description: "Testing and implementing Tezos Protocol Upgrade Proposals",
+    category: ["Open Source"],
+    parentCompany: "Marigold",
+    imageSrc: "https://marigold.dev/images/svg/red/Logo-Marigold-Rouge.svg",
+    gitlabUrl: "https://gitlab.com/marigold",
+    twitterUrl: "https://twitter.com/Marigold_Dev",
+  },
+  {
     name: "SpiceySwap",
     href: "https://spicyswap.xyz/#/",
     description:
@@ -763,6 +773,18 @@ export let apps = [
     mediumUrl: "https://medium.com/the-cryptonomic-aperiodical",
   },
   {
+    name: "Homebase",
+    href: "https://tezos-homebase.io/",
+    description:
+      "A web application that enables users to create and manage/use DAOs on the Tezos blockchain. Aims to help empower community members and developers to launch and participate in Tezos-based DAOs",
+    category: ["Dev", "Tool"],
+    parentCompany: "dOrgTech",
+    imageSrc:
+      "https://tezos-homebase.io/static/media/homebase_logo.bd22e86f.svg",
+    discordUrl: "https://discord.com/invite/Rgf72KEH",
+    githubUrl: "https://github.com/dOrgTech/homebase-app",
+  },
+  {
     name: "TezTracker",
     href: "https://teztracker.com/",
     description:
@@ -783,6 +805,34 @@ export let apps = [
     twitterUrl: "https://twitter.com/fredcy",
   },
   {
+    name: "Faucet Tzalpha",
+    href: "https://faucet.tzalpha.net/",
+    description: "A faucet for the Tezos test net",
+    category: ["Tool", "dev"],
+    parentCompany: "",
+    imageSrc: "https://faucet.tzalpha.net/img/faucet.png",
+  },
+  {
+    name: "Tezos FA Tokens Faucet",
+    href: "https://tools.kickflow.io/",
+    description:
+      "This faucet will provide you with three FA1.2 and two FA2 tokens (100 each), on Hangzhou testnet on Tezos. Faucet made by Kickflow",
+    category: ["Tool", "dev"],
+    parentCompany: "",
+    imageSrc:
+      "https://tools.kickflow.io/static/media/faucet_header.d4ed0e45.png",
+  },
+  {
+    name: "TezBridge",
+    href: "https://docs.tezbridge.com/",
+    description:
+      "ezBridge is a connector between Tezos and DApps. It works on both desktop and mobile devices and, furthermore, users can run DApp on device A and sign operations on device B under local area network.",
+    category: ["dev"],
+    parentCompany: "",
+    imageSrc: "https://avatars2.githubusercontent.com/u/33521489?s=200&v=4",
+    githubUrl: "https://github.com/tezbridge",
+  },
+  {
     name: "TezQuery",
     href: "https://tzquery.io/",
     description:
@@ -792,6 +842,7 @@ export let apps = [
     imageSrc:
       "https://cdn.discordapp.com/attachments/285826576417816576/902751759657754624/TezQuery.png",
     gitlabUrl: "https://gitlab.com/TezQuery/graphexplorer",
+    telegramUrl: "https://t.me/tezbridge",
   },
   {
     name: "TzButton",
@@ -847,6 +898,18 @@ export let apps = [
     GithubUrl: "https://github.com/BazaarMarket/Bazaar-Market",
     DiscordUrl: "https://discord.com/invite/mnYZwv8s5a",
     TelegramdUrl: "https://t.me/joinchat/L_izbzRXxLNhNTY5",
+  },
+  {
+    name: "Guild Token",
+    href: "https://guildtoken.io/",
+    description:
+      "Enhanced Tezos Staking Program. Allows users to deposit their Tezos and earn not only staking rewards but take advantage of a reward pool. Learn more by visiting the site. ",
+    category: ["DeFi"],
+    parentCompany: "Guild Token",
+    imageSrc:
+      "https://guildtoken.io/wp-content/uploads/2020/10/Guild-Transparent-Background-200x200-1.png",
+    twitterUrl: "https://twitter.com/GuildToken",
+    youtubeUrl: "https://www.youtube.com/c/PrimeTime01/videos",
   },
   {
     name: "TzGo",
