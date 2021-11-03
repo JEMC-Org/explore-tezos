@@ -893,7 +893,7 @@ export let apps = [
       "Bazaar Market is the first ever carbon-negative NFT market, powered by Tezos.",
     category: ["NFT"],
     parentCompany: "Mclntyre Industries",
-    imageSrc: "https://bazaarnft.xyz/static/media/logo.97ea2d1d.svg",
+    imageSrc: "https://bazaarnft.xyz/static/media/footerLogo.7f183d29.svg",
     twitterUrl: "https://twitter.com/BazartNFT",
     GithubUrl: "https://github.com/BazaarMarket/Bazaar-Market",
     DiscordUrl: "https://discord.com/invite/mnYZwv8s5a",
