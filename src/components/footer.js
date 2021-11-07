@@ -11,7 +11,7 @@ export default function Footer() {
       </div>
       <div className="w-full h-20 flex justify-center items-center text-2xl">
         <a
-          className="px-2 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+          className="px-2 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-white"
           href="https://twitter.com/exploretezos"
           target="_blank"
           rel="noopener noreferrer"
@@ -19,7 +19,7 @@ export default function Footer() {
           <FontAwesomeIcon icon={faTwitter} />
         </a>
         <a
-          className="px-2 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-secondary"
+          className="px-2 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-white"
           href="https://discord.gg/fXsVvsxCr3"
           target="_blank"
           rel="noopener noreferrer"
