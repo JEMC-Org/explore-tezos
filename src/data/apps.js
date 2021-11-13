@@ -50,7 +50,7 @@ export let apps = [
     category: ["Dev", "Tool", "Featured"],
     parentCompany: "KickFlow",
     imageSrc:
-      "https://kickflow.io/_next/static/image/src/assets/images/brand_white.42f6053006de182cd37506155f45f93c.png",
+      "https://cdn.discordapp.com/attachments/285826576417816576/908906208692428830/nigrB6Gp_400x400.png",
     twitterUrl: "https://twitter.com/kickflowio",
     discordUrl: "https://discord.gg/nzwRHu6meQ",
     githubUrl: "https://github.com/kickflowio",
@@ -255,6 +255,19 @@ export let apps = [
     telegramUrl: "tg://resolve?domain=baking_bad_chat",
   },
   {
+    name: "ETHtez",
+    href: "https://www.ethtz.io/",
+    description:
+      "ETHtz is Ethereum wrapped in the Tezos FA-token standard.  ETHtz is hard-backed by a full-reserve of real Ether (ETH)",
+    category: ["DeFi"],
+    parentCompany: "Tezos Stable Techologies, Ltd",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/908909490085199883/ETHtz_purple.png",
+    telegramUrl: "https://t.me/ETHtez",
+    mediumUrl: "https://medium.com/umamiwallet",
+    githubUrl: "https://github.com/StableTechnologies/ETHtz",
+  },
+  {
     name: "Umami",
     href: "https://umamiwallet.com/",
     description:
@@ -265,6 +278,27 @@ export let apps = [
     twitterUrl: "https://twitter.com/umamiwallet",
     mediumUrl: "https://medium.com/umamiwallet",
     gitlabUrl: "https://gitlab.com/nomadic-labs/umami-wallet",
+  },
+  {
+    name: "Spire",
+    href: "https://spirewallet.com/",
+    description:
+      "Spire enables wallet-browser connectivity between Tezos dApps. Spire is made by AirGap",
+    category: ["Wallet"],
+    parentCompany: "AirGap",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/908910383941689344/spire.png",
+    discordUrl: "https://discord.gg/kcSsa2XTRa",
+  },
+  {
+    name: "Lugh",
+    href: "https://www.lugh.io/",
+    description: "Lugh, the first reliable euro-pegged stablecoin.",
+    category: ["DeFi"],
+    parentCompany: "Lugh",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/908914831602647070/V51L-boN_400x400.png",
+    twitterdUrl: "https://twitter.com/LughStablecoin",
   },
   {
     name: "Tezotopia",
@@ -779,6 +813,17 @@ export let apps = [
     mediumUrl: "https://medium.com/the-cryptonomic-aperiodical",
   },
   {
+    name: "Rarity Check",
+    href: "https://raritycheck.xyz/",
+    description:
+      "Check the rarity of a single NFT from a collection. This provides a quick reference for collectors, as well as tools to perform data analysis on different NFT collections created on the Tezos network. ",
+    category: ["NFT"],
+    parentCompany: "Alcis Bragi",
+    imageSrc:
+      "https://raritycheck.xyz/i/21.1.3/themes/theme_42/21.1/images/rw/background-patterns/neutral.png",
+    twitterUrl: "https://twitter.com/AlcisBragi",
+  },
+  {
     name: "Homebase",
     href: "https://tezos-homebase.io/",
     description:
@@ -829,10 +874,21 @@ export let apps = [
       "https://tools.kickflow.io/static/media/faucet_header.d4ed0e45.png",
   },
   {
+    name: "Nautilus Cloud",
+    href: "https://nautilus.cloud/",
+    description:
+      "A full suite of tools to develop and deploy blockchain applications",
+    category: ["Dev"],
+    parentCompany: "Cryptonomic",
+    imageSrc:
+      "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIiIGhlaWdodD0iIiB2aWV3Qm94PSIwIDAgMjggMjMiPgogICAgPGcgZmlsbD0ibm9uZSI+CiAgICAgICAgPHBhdGggZmlsbD0iIzdEQzBERSIgZD0iTTIxLjM3NiA3LjE5M2MyLjU1IDIuNTUgMy42NyA3LjEyOCAzLjM2IDEwLjQ1OCAxLjc3Mi00LjIzLjkzOS05LjI5My0yLjUwNi0xMi43MzdDMTYuNTQ0LS43NyA3LjMyNi0uNzcgMS42NCA0LjkxNGwxLjU5MyAxLjQ1YzUuNzc0LTUgMTMuMjE1LTQuMDk4IDE4LjE0My44Mjl6IiB0cmFuc2Zvcm09InNjYWxlKDEgLTEpIHJvdGF0ZSgtMzUgLTIyLjQ3MyAtMi4xNzIpIi8+CiAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTE1LjUyNyAyNC4wNmMtMi41OTkgMC01LjA0MS0xLjAwMS02Ljg3OC0yLjgxOC0yLjgxNi0yLjc4NS0zLjA0Ni03LjE3NC0uNjkxLTEwLjIyMkwuOTM1IDQuNjk4bC4zMTYtLjMxMmM1LjgzMi01Ljc2OSAxNS4zMjItNS43NjggMjEuMTU0IDAgMi4yNzYgMi4yNTEgMy41MyA1LjI0NCAzLjUzIDguNDI4IDAgMy4xODQtMS4yNTQgNi4xNzctMy41MyA4LjQyOC0xLjgzOCAxLjgxNy00LjI4IDIuODE4LTYuODc4IDIuODE4ek0xMy4xNTkgOS4yMzhjLTEuNDE1IDAtMi44My41MzItMy45MDcgMS41OTgtMi43MzUgMi43MDUtMi43MzUgNy4xMDUgMCA5LjgxIDEuNjc2IDEuNjU4IDMuOTA0IDIuNTcgNi4yNzUgMi41NyAyLjM3IDAgNC41OTgtLjkxMiA2LjI3NC0yLjU3IDIuMTE2LTIuMDkyIDMuMjgtNC44NzQgMy4yOC03LjgzMnMtMS4xNjQtNS43NC0zLjI4LTcuODMxQzE5LjEzNyAyLjM0OCAxNS41OTUuODk2IDExLjgyOC44OTZjLTMuNjE4IDAtNy4wMjkgMS4zMzktOS42NTMgMy43NzhsNi4zMzcgNS43MDRjLjA0NS0uMDQ2LjA5LS4wOTMuMTM3LS4xMzkgMi40ODctMi40NiA2LjUzNC0yLjQ1OSA5LjAyIDAgLjk4Ljk3IDEuNTIgMi4yNTggMS41MiAzLjYyOSAwIDEuMzctLjU0IDIuNjU5LTEuNTIgMy42MjgtMS42NSAxLjYzMy00LjMzOCAxLjYzMy01Ljk5IDAtMS4zNTQtMS4zNC0xLjM1NC0zLjUxOSAwLTQuODU5IDEuMTE4LTEuMTA0IDIuOTM1LTEuMTA0IDQuMDUxIDAgLjQ1LjQ0NC42OTYgMS4wMzUuNjk2IDEuNjYzIDAgLjYyOC0uMjQ3IDEuMjE4LS42OTYgMS42NjItLjM3NS4zNzEtLjg3NC41NzUtMS40MDQuNTc1LS41MyAwLTEuMDMtLjIwNC0xLjQwNS0uNTc1bC42MDMtLjU5N2MuMjE0LjIxMi40OTkuMzI5LjgwMi4zMjkuMzAzIDAgLjU4OC0uMTE3LjgwMi0uMzI5LjI4OC0uMjg0LjQ0Ni0uNjYzLjQ0Ni0xLjA2NSAwLS40MDMtLjE1OC0uNzgxLS40NDYtMS4wNjYtLjc4NC0uNzc2LTIuMDYtLjc3NS0yLjg0NSAwLTEuMDIxIDEuMDEtMS4wMjEgMi42NTUgMCAzLjY2NiAxLjMyIDEuMzA1IDMuNDY1IDEuMzA0IDQuNzg0IDAgLjgyLS44MSAxLjI3LTEuODg2IDEuMjctMy4wMzIgMC0xLjE0NS0uNDUtMi4yMjItMS4yNy0zLjAzMi0xLjA3OC0xLjA2NS0yLjQ5My0xLjU5OC0zLjkwOC0xLjU5OHoiIHRyYW5zZm9ybT0ic2NhbGUoMSAtMSkgcm90YXRlKC0zNSAtMjIuNDczIC0yLjE3MikiLz4KICAgIDwvZz4KPC9zdmc+Cg==",
+    githubUrl: "https://github.com/Cryptonomic/Nautilus-Cloud-Ui",
+  },
+  {
     name: "TezBridge",
     href: "https://docs.tezbridge.com/",
     description:
-      "ezBridge is a connector between Tezos and DApps. It works on both desktop and mobile devices and, furthermore, users can run DApp on device A and sign operations on device B under local area network.",
+      "TezBridge is a connector between Tezos and DApps. It works on both desktop and mobile devices and, furthermore, users can run DApp on device A and sign operations on device B under local area network.",
     category: ["Dev"],
     parentCompany: "",
     imageSrc: "https://avatars2.githubusercontent.com/u/33521489?s=200&v=4",
@@ -1242,7 +1298,7 @@ export let apps = [
     name: "Madfish.Solutions",
     href: "https://www.madfish.solutions/",
     description:
-      "Software development company experienced in Blockchain and JS web with highly skilled professionals. They are really cool I like them :) Creators or Temple Wallet, QuipuSwap, Ligo and more!",
+      "Software development company experienced in Blockchain and JS web with highly skilled professionals. They are really cool :) Creators of Temple Wallet, QuipuSwap, Ligo and more!",
     category: ["Open Source", "Featured"],
     parentCompany: "MadFish Solutions",
     imageSrc:
@@ -1266,6 +1322,20 @@ export let apps = [
     githubUrl: "https://github.com/papers-ch/",
     youtubeUrl: "http://www.youtube.com/user/papersDev",
     linkedinUrl: "https://www.linkedin.com/company/papers.ch/",
+  },
+  {
+    name: "nomadic labs",
+    href: "https://www.nomadic-labs.com/",
+    description:
+      "Working on core development, evolution and adoption of the Tezos protocol in France, Luxembourg and Belgium. Awesome People :]",
+    category: ["Open Source", "Featured"],
+    parentCompany: "Nomadic Labs",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/908912921944395907/cwQsEkx6_400x400.png",
+    twitterUrl: "https://twitter.com/LabosNomades",
+    gitlabUrl: "https://gitlab.com/nomadic-labs",
+    youtubeUrl: "https://www.youtube.com/channel/UCp9imUAFtU5kRyFKHN2iCDA",
+    linkedinUrl: "https://www.linkedin.com/company/nomadic-labs/",
   },
   {
     name: "Sweet",

@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faDiscord } from "@fortawesome/free-brands-svg-icons";
+import { faMap } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   return (
@@ -26,15 +27,24 @@ export default function Footer() {
         >
           <FontAwesomeIcon icon={faDiscord} />
         </a>
+        <a
+          className="px-2 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-white"
+          href="https://jemc.xyz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faMap} />
+        </a>
       </div>
-      <div className="flex pb-4 flex-col items-center justify-center text-descriptions">
+      <div className="flex pb-4 flex-col items-center justify-center text-descriptions text-center">
         <a href="https://tzkt.io/tz1g1kNmzUmWnmxmtWbjtkMW4feSYmqAyjpR/operations/">
-          Donation: tz1g1kNmzUmWnmxmtWbjtkMW4feSYmqAyjpR{" "}
+          Donation: tz1g1kNmzUmWnmxmtWbjtkMW4feSYmqAyjpR or whatis.tez{" "}
         </a>
       </div>
       <div>
         <p className="w-full h-10 flex justify-center text-xs text-descriptions">
-          Copyright © 2021 JEMC. All Rights Reserved. Made with &nbsp;{" "}
+          Copyright © 2021&nbsp;<a href="https://jemc.xyz"> JEMC </a>. All
+          Rights Reserved. Made with &nbsp;{" "}
           <span className="text-red">&#9829;</span>
         </p>
       </div>
