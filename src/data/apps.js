@@ -424,7 +424,7 @@ export let apps = [
     href: "https://tzstats.com/",
     description:
       "TzStats is the first Blockchain Analytics Explorer for Tezos.",
-    category: ["Tool"],
+    category: ["Tool", "Featured"],
     parentCompany: "Blockwatch",
     imageSrc:
       "https://pbs.twimg.com/profile_images/1292754365460164608/4XT7kZT6_400x400.jpg",
@@ -471,7 +471,8 @@ export let apps = [
     description: "Testing and implementing Tezos Protocol Upgrade Proposals",
     category: ["Open Source"],
     parentCompany: "Marigold",
-    imageSrc: "https://marigold.dev/images/svg/red/Logo-Marigold-Rouge.svg",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/909268928201629696/61793ee65c891c190fcaa1d0_Vector1.png",
     gitlabUrl: "https://gitlab.com/marigold",
     twitterUrl: "https://twitter.com/Marigold_Dev",
   },
@@ -516,7 +517,8 @@ export let apps = [
   {
     name: "Wrap",
     href: "https://www.tzwrap.com/",
-    description: "A decentralized bridge between Ethereum and Tezos.",
+    description:
+      "A decentralized bridge between Ethereum and Tezos. Transfer your ERC20 and ERC721 tokens from Ethereum to the Tezos blockchain in a decentralized way",
     category: ["DeFi"],
     parentCompany: "",
     imageSrc: "https://www.tzwrap.com/img/logo.png",
@@ -776,13 +778,24 @@ export let apps = [
     name: "tezblock",
     href: "https://tezblock.io/",
     description: "A Tezos block exploer by Papers (makers of AirGap wallet)",
-    category: ["Tool"],
+    category: ["Tool", "Featured"],
     parentCompany: "Papers",
     imageSrc: "https://tezblock.io/assets/img/tezblock_logo.svg",
     twitterUrl: "https://twitter.com/AirGap_it",
     mediumUrl: "https://medium.com/airgap-it",
     telegramUrl: "https://t.me/AirGap",
     githubUrl: "https://github.com/airgap-it/tezblock",
+  },
+  {
+    name: "Arronax",
+    href: "https://arronax.io/tezos/mainnet/accounts",
+    description:
+      "Blockchain data analytics tool built with ConseilJS, powered by the Conseil API. ",
+    category: ["Tool"],
+    parentCompany: "Cryptonomic",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/909268764569255936/ask_question_icon.png",
+    githubUrl: "https://github.com/Cryptonomic/Arronax",
   },
   {
     name: "ByteBlock",
@@ -1027,6 +1040,18 @@ export let apps = [
       "https://cdn.discordapp.com/attachments/285826576417816576/906693507983491083/Image2021-11-0603.png",
   },
   {
+    name: "Inter Pop",
+    href: "https://www.interpop.io/",
+    description:
+      "InterPop is forging the future of digital fandom with comic, game, and collectible NFTs. We believe that true ownership of your digital assets is the future of comics and gaming and that future begins with InterPop.",
+    category: ["NFT", "Gaming"],
+    parentCompany: "Interpop LLC",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/909271422046703676/logo.png",
+    twitterUrl: "https://twitter.com/Interpop",
+    discordUrl: "https://discord.com/invite/n8HPcBFZXy",
+  },
+  {
     name: "Play With Brio",
     href: "https://playwithbrio.com/home",
     description:
@@ -1037,6 +1062,30 @@ export let apps = [
       "https://cdn.discordapp.com/attachments/285826576417816576/902748654316716042/Screen_Shot_2021-10-26_at_9.40.44_PM.png",
     twitterUrl: "https://twitter.com/Interpop",
     discordUrl: "https://discord.com/invite/n8HPcBFZXy",
+  },
+  {
+    name: "Minter Pop",
+    href: "https://minterpop.com/",
+    description:
+      "Buy and collect NFT art from a curated roster of contemporary and pop creators. Sell and trade NFTs you own on MinterPop’s user-to-user marketplace.",
+    category: ["NFT"],
+    parentCompany: "Interpop LLC",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/909270886836764762/header.png",
+    twitterUrl: "https://twitter.com/Interpop",
+    discordUrl: "https://discord.com/invite/n8HPcBFZXy",
+  },
+  {
+    name: "fx(hash)",
+    href: "https://www.fxhash.xyz/",
+    description:
+      "fxhash is an open platform to create and collect generative NFTs on the tezos blockchain",
+    category: ["NFT"],
+    parentCompany: "fx(hash)",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/909276864042913803/dedfea94-590c-4b8a-8216-251d8fc66269.png",
+    twitterUrl: "https://twitter.com/fx_hash_",
+    discordUrl: "https://discord.com/invite/wzqxfdCKCC",
   },
   {
     name: "Ubinetic",
@@ -1086,7 +1135,18 @@ export let apps = [
     telegramUrl: "https://t.me/tzcolors",
     twitterUrl: "https://twitter.com/tzcolors",
   },
-
+  {
+    name: "CricTez",
+    href: "https://crictez.io/",
+    description:
+      "Collect limited edition cricket collectibles(NFTs), trade on marketplace & compete in live matches to earn exclusive rewards",
+    category: ["NFT"],
+    parentCompany: "CricTez",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/909286705931096094/mhdAAAAAElFTkSuQmCC.png",
+    twitterUrl: "https://twitter.com/crictez_io",
+    discordUrl: "https://discord.com/invite/dHaBeKjEDj",
+  },
   {
     name: "Netezos",
     href: "https://netezos.dev/",
