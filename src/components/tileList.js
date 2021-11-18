@@ -6,12 +6,11 @@ import { apps } from "../data/apps";
 export default function TileList() {
   const [appsState, setAppsState] = useState(apps);
   const [filter, setFilter] = useState("All");
-  const [count, setCount] = useState(apps.length);
 
   return (
     <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
       <RadioGroup value={filter} onChange={setFilter}>
-        <div className="flex flex-wrap justify-start lg:justify-between mx-auto w-3/4 py-10">
+        <div className="flex flex-wrap justify-start sm:justify-center mx-auto w-2/3 py-10">
           <RadioGroup.Option value="Featured Apps">
             {({ checked }) => (
               <button
@@ -25,10 +24,11 @@ export default function TileList() {
                     app.category.includes("Featured")
                   );
                   setAppsState(tmpApps);
-                  setCount(tmpApps.length);
                 }}
               >
-                Featured Apps
+                Featured Apps (
+                {apps.filter((app) => app.category.includes("Featured")).length}
+                )
               </button>
             )}
           </RadioGroup.Option>
@@ -42,10 +42,9 @@ export default function TileList() {
                 }
                 onClick={() => {
                   setAppsState(apps);
-                  setCount(apps.length);
                 }}
               >
-                All
+                All ({apps.length})
               </button>
             )}
           </RadioGroup.Option>
@@ -62,10 +61,10 @@ export default function TileList() {
                     app.category.includes("DeFi")
                   );
                   setAppsState(tmpApps);
-                  setCount(tmpApps.length);
                 }}
               >
-                DeFi
+                DeFi (
+                {apps.filter((app) => app.category.includes("DeFi")).length})
               </button>
             )}
           </RadioGroup.Option>
@@ -82,10 +81,10 @@ export default function TileList() {
                     app.category.includes("Wallet")
                   );
                   setAppsState(tmpApps);
-                  setCount(tmpApps.length);
                 }}
               >
-                Wallet
+                Wallet (
+                {apps.filter((app) => app.category.includes("Wallet")).length})
               </button>
             )}
           </RadioGroup.Option>
@@ -102,10 +101,10 @@ export default function TileList() {
                     app.category.includes("NFT")
                   );
                   setAppsState(tmpApps);
-                  setCount(tmpApps.length);
                 }}
               >
-                NFT
+                NFT ({apps.filter((app) => app.category.includes("NFT")).length}
+                )
               </button>
             )}
           </RadioGroup.Option>
@@ -122,10 +121,10 @@ export default function TileList() {
                     app.category.includes("Gaming")
                   );
                   setAppsState(tmpApps);
-                  setCount(tmpApps.length);
                 }}
               >
-                Gaming
+                Gaming (
+                {apps.filter((app) => app.category.includes("Gaming")).length})
               </button>
             )}
           </RadioGroup.Option>
@@ -142,10 +141,10 @@ export default function TileList() {
                     app.category.includes("Dev")
                   );
                   setAppsState(tmpApps);
-                  setCount(tmpApps.length);
                 }}
               >
-                Dev
+                Dev ({apps.filter((app) => app.category.includes("Dev")).length}
+                )
               </button>
             )}
           </RadioGroup.Option>
@@ -162,10 +161,10 @@ export default function TileList() {
                     app.category.includes("Tool")
                   );
                   setAppsState(tmpApps);
-                  setCount(tmpApps.length);
                 }}
               >
-                Tool
+                Tool (
+                {apps.filter((app) => app.category.includes("Tool")).length})
               </button>
             )}
           </RadioGroup.Option>
@@ -182,10 +181,14 @@ export default function TileList() {
                     app.category.includes("Corporate")
                   );
                   setAppsState(tmpApps);
-                  setCount(tmpApps.length);
                 }}
               >
-                Corporate
+                Corporate (
+                {
+                  apps.filter((app) => app.category.includes("Corporate"))
+                    .length
+                }
+                )
               </button>
             )}
           </RadioGroup.Option>
@@ -202,16 +205,19 @@ export default function TileList() {
                     app.category.includes("Open Source")
                   );
                   setAppsState(tmpApps);
-                  setCount(tmpApps.length);
                 }}
               >
-                Open Source
+                Open Source (
+                {
+                  apps.filter((app) => app.category.includes("Open Source"))
+                    .length
+                }
+                )
               </button>
             )}
           </RadioGroup.Option>
         </div>
       </RadioGroup>
-      <p className="text-white flex justify-center">Count: {count}</p>
       <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 p-10">
         {appsState.map((app) => (
           <div

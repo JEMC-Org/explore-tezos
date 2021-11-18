@@ -59,6 +59,17 @@ export let apps = [
     youtubeUrl: "https://www.youtube.com/channel/UCA1K1dSRsWn4gPxJ-z5wyNA",
   },
   {
+    name: "Explore Tezos NFT",
+    href: "https://exploretezosnft.com/",
+    description: "A place where you can find and track nft's on Tezos.",
+    category: ["NFT", "Tool", "Featured"],
+    parentCompany: "Tezos Domains",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/910712706389147669/image_1.png",
+    twitterUrl: "https://twitter.com/exploretezos",
+    discordUrl: "https://discord.gg/fXsVvsxCr3",
+  },
+  {
     name: "Tezos Domains",
     href: "https://tezos.domains/",
     description:
@@ -502,6 +513,21 @@ export let apps = [
     mediumUrl: "https://medium.com/usdtz",
     telegramUrl: "https://t.me/USDtez",
     redditUrl: "https://reddit.com/r/usdtz",
+  },
+  {
+    name: "Stably",
+    href: "https://www.stably.io/",
+    description: "Bridging Value from the Real World to the Digital Economy",
+    category: ["DeFi"],
+    parentCompany: "Stably Corporation",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/910714492734824509/logo-mobile-1.png",
+    twitterUrl: "https://twitter.com/stably_official",
+    youtubeUrl:
+      "https://www.youtube.com/channel/UCy459x_0LlchV5cK-s3D-iQ/videos",
+    mediumUrl: "https://medium.com/stably-blog",
+    telegramUrl: "https://t.me/stablycommunity",
+    linkedinUrl: "https://www.linkedin.com/company/stably/",
   },
   {
     name: "Stabletez",
@@ -1163,14 +1189,33 @@ export let apps = [
     href: "https://www.bakebuddy.xyz/",
     description:
       "Your easy to use Tezos baking application. Made by the Tezos community, for the community!",
-    category: ["Bake :)", "Dev"],
+    category: ["Bake Buddy* :)", "Tool"],
     parentCompany: "BakeBuddy",
     imageSrc: "https://www.bakebuddy.xyz/images/logo.svg",
     twitterUrl: "https://twitter.com/YourBakeBuddy",
     discordUrl: "https://discord.gg/HGcznzuWYk",
-    githubUrl: "https://gitlab.com/groktech",
+    gitlabUrl: "https://gitlab.com/groktech",
     telegramUrl: "https://t.me/bakebuddy",
     mediumUrl: "https://bakebuddy.medium.com/",
+  },
+  {
+    name: "Granary",
+    href: "https://stove-labs.github.io/granary/",
+    description: "All-in toolkit for Tezos development",
+    category: ["Dev"],
+    parentCompany: "Facebook",
+    imageSrc: "https://stove-labs.github.io/granary/img/grain.png",
+    gitlabUrl: "https://github.com/stove-labs/granary",
+    twitterUrl: "https://twitter.com/stove_labs",
+  },
+  {
+    name: "sotez",
+    href: "https://github.com/AndrewKishino/sotez",
+    description: "A JavaScript Library for Tezos",
+    category: ["Dev"],
+    parentCompany: "AndrewKishino",
+    imageSrc: "",
+    githubUrl: "https://github.com/AndrewKishino/sotez",
   },
   {
     name: "Liquibrium",
@@ -1250,6 +1295,38 @@ export let apps = [
     githubUrl: "https://github.com/tqtezos/TZComet",
   },
   {
+    name: "Build first Dapp on Tezos",
+    href: "https://styts.com/your-first-tezos-dapp/",
+    description:
+      "For this tutorial we will program a simple Hello World application: a good old-fashioned guestbook. It has only entries, authors and timestamps and consists of 1 smart contract.",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/910710721262809158/Image2021-11-1704.png",
+    category: ["Dev"],
+    parentCompany: "",
+    githubUrl: "https://github.com/styts/tz-guestbook",
+  },
+  {
+    name: "Tezos Ukraine Developer Courses (English)",
+    href: "https://tezos.org.ua/en/courses",
+    description:
+      "Learn about Tezos protocol and smart-contract development with our articles and video tutorials.",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/910717898513842246/main.png",
+    category: ["Dev"],
+    parentCompany: "Tezos Ukraine",
+  },
+  {
+    name: "Que Pasa",
+    href: "https://tzconnect.com/blog/Introducing-Que-Pasa-a-Contract-Indexer-for-Tezos/",
+    description:
+      "Que Pasa is a new indexer for Tezos which aims to fulfil the needs of dApp developers who want a quick, small, fast indexer for their contracts’ storages. It is written in Rust and currently uses PostgreSQL as its storage layer.",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/910713584546369546/Image2021-11-1727.png",
+    category: ["Dev"],
+    parentCompany: "tzConnectBerlin",
+    githubUrl: "https://github.com/tzConnectBerlin/que-pasa",
+  },
+  {
     name: "Archetype",
     href: "https://archetype-lang.org/",
     description:
@@ -1314,7 +1391,6 @@ export let apps = [
     imageSrc:
       "https://reference.wolfram.com/common/framework/img/spikey.en.png",
   },
-
   {
     name: "Ubisoft",
     href: "https://dailycoin.com/ubisoft-partnered-tezos-blockchain/",
