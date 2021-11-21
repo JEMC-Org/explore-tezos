@@ -84,18 +84,6 @@ export let apps = [
     mediumUrl: "https://gitlab.com/tezos-domains",
   },
   {
-    name: "Pixel Potus",
-    href: "https://www.pixelpotus.com/",
-    description:
-      "PixelPotus is a digital collectable competition built on the Tezos blockchain.",
-    category: ["NFT", "Gaming", "Featured"],
-    parentCompany: "",
-    imageSrc: "https://www.pixelpotus.com/img/potus.c3aeacbd.gif",
-    twitterUrl: "https://twitter.com/PixelPotus",
-    discordUrl: "https://discord.gg/CbdbvwtwkM",
-    telegramUrl: "https://t.me/pixelpotus",
-  },
-  {
     name: "Plenty",
     href: "https://www.plentydefi.com/",
     description:
@@ -266,6 +254,30 @@ export let apps = [
     telegramUrl: "tg://resolve?domain=baking_bad_chat",
   },
   {
+    name: "Pixel Potus",
+    href: "https://www.pixelpotus.com/",
+    description:
+      "PixelPotus is a digital collectable competition built on the Tezos blockchain.",
+    category: ["NFT", "Gaming", "Featured"],
+    parentCompany: "",
+    imageSrc: "https://www.pixelpotus.com/img/potus.c3aeacbd.gif",
+    twitterUrl: "https://twitter.com/PixelPotus",
+    discordUrl: "https://discord.gg/CbdbvwtwkM",
+    telegramUrl: "https://t.me/pixelpotus",
+  },
+  {
+    name: "Pixel Debates",
+    href: "https://www.pixeldebates.com/",
+    description:
+      "PixelDebates is an NFT-powered trading card game themed around presidential debates.",
+    category: ["NFT", "Gaming"],
+    parentCompany: "Pixel Potus",
+    imageSrc: "https://www.pixeldebates.com/img/DebatesLogo.65c3b587.png",
+    twitterUrl: "https://twitter.com/PixelPotus",
+    discordUrl: "https://discord.gg/CbdbvwtwkM",
+    telegramUrl: "https://t.me/pixelpotus",
+  },
+  {
     name: "ETHtez",
     href: "https://www.ethtz.io/",
     description:
@@ -335,7 +347,7 @@ export let apps = [
   },
   {
     name: "Hicetnunc",
-    href: "https://www.hicetnunc.xyz/",
+    href: "https://www.hicetnunc.art/",
     description:
       "The first NFT market place on Tezos. Buy, Sell and Mint your NFTs on HEN",
     category: ["NFT"],
@@ -611,9 +623,18 @@ export let apps = [
     category: ["Dev"],
     parentCompany: "",
     imageSrc: "https://ligolang.org/img/logo-night.svg",
-    discordUrl: "https://t.me/KukaiWallet",
+    discordUrl: "https://discord.com/invite/9rhYaEt",
     telegramUrl: "https://t.me/LigoLang",
     gitlabUrl: "https://gitlab.com/ligolang/ligo",
+  },
+  {
+    name: "Tacode",
+    href: "https://tacode.dev/",
+    description:
+      "On Tacode you learn Tezos development from simple recipes with your peers.",
+    category: ["Dev"],
+    parentCompany: "",
+    imageSrc: "https://tacode.dev/images/communities/tacode01_blue_1180w.webp",
   },
   {
     name: "OpenMinter",
@@ -1304,6 +1325,30 @@ export let apps = [
     category: ["Dev"],
     parentCompany: "",
     githubUrl: "https://github.com/styts/tz-guestbook",
+  },
+  {
+    name: "Money Hero",
+    href: "https://www.moneyhero.io/?utm_source=DappRadar&utm_medium=deeplink&utm_campaign=visit-website",
+    description:
+      "Financial education is a fundamental right. As a MoneyHero, you help the community to exercise this right and to spread it throughout society.",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/911817348766388315/60d017421609520c61e22ea4_geldhelden-favicon.png",
+    category: ["DeFi"],
+    parentCompany: "Moneyheros Organization Ltd",
+    twitterUrl: "https://twitter.com/moneyhero_io",
+    telegramUrl: "https://t.me/geldhelden",
+  },
+  {
+    name: "Cerveza Brewery",
+    href: "https://www.cervezabrewery.io/?utm_source=DappRadar&utm_medium=deeplink&utm_campaign=visit-website",
+    description:
+      "The brewery is our fun and exciting approach to opportunities like staking and liquidity mining. ",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/911818487071133697/611628d3fab35c798cc4b8f0_freibier-group-tiny.png",
+    category: ["DeFi"],
+    parentCompany: "CervezaBrewery.io",
+    discordUrl: "https://discord.com/invite/693GtVyP7E",
+    telegramUrl: "https://t.me/cervezabrewery",
   },
   {
     name: "Tezos Ukraine Developer Courses (English)",
