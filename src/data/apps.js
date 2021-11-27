@@ -159,6 +159,18 @@ export let apps = [
     discordUrl: "https://discord.gg/aG8XKuwsQd",
   },
   {
+    name: "Gif Games",
+    href: "https://gif.games/",
+    description:
+      "Crossing NFTs and Dapps to make fun and interactive worlds where users can collect, earn, and build new virtual worlds!",
+    category: ["Gaming"],
+    parentCompany: "Gif Games",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/914023914374590544/hksAgrdA_400x400.png",
+    twitterUrl: "https://twitter.com/gifdotgames",
+    telegramUrl: "https://t.me/gifgames",
+  },
+  {
     name: "ctez",
     href: "https://ctez.app/",
     description:
@@ -328,7 +340,7 @@ export let apps = [
     href: "https://tezotop.io/",
     description:
       "Claim land and produce tokenized resources in this Blockchain Space Adventure that allows you to become king or conqueror.",
-    category: ["Gaming"],
+    category: ["Gaming", "Featured"],
     parentCompany: "gif.games",
     imageSrc: "https://tezotop.io/wp-content/uploads/2021/08/tztop-logo.png",
     telegramUrl: "https://t.me/gifgames",
@@ -610,7 +622,7 @@ export let apps = [
     category: ["DeFi"],
     parentCompany: "Instaraise",
     imageSrc:
-      "https://pbs.twimg.com/profile_images/1431234508502667264/nBpx68MB_400x400.jpg",
+      "https://cdn.discordapp.com/attachments/285826576417816576/914021872729989180/header.png",
     twitterUrl: "https://twitter.com/Instaraise",
     telegramUrl: "https://t.me/Instaraise",
     mediumUrl:
@@ -1235,7 +1247,8 @@ export let apps = [
     description: "A JavaScript Library for Tezos",
     category: ["Dev"],
     parentCompany: "AndrewKishino",
-    imageSrc: "",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/914022243233845308/logo.png",
     githubUrl: "https://github.com/AndrewKishino/sotez",
   },
   {
@@ -1359,6 +1372,46 @@ export let apps = [
       "https://cdn.discordapp.com/attachments/285826576417816576/910717898513842246/main.png",
     category: ["Dev"],
     parentCompany: "Tezos Ukraine",
+  },
+  {
+    name: "Nomadic Labs Knowledge Center",
+    href: "https://docs.nomadic-labs.com/nomadic-labs-knowledge-center/",
+    description:
+      "Here you will find all the necessary documentation to help you understand the main concepts and tools to build successfully on Tezos.",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/914020805334159401/assets2F-Meeg1UVEGFWXkuXBJ172F-Mk2nedRL0KKE9D0F2pD2F-Mk2oJfxIUv44hBFZuZn2FCapture20dE28099C3A9cran20de202021-09-202017-26-33.png",
+    category: ["Dev"],
+    parentCompany: "Nomadic Labs",
+  },
+  {
+    name: "Cryptoverse Wars",
+    href: "https://cryptocodeschool.in/tezos/",
+    description:
+      "We've got you covered with our fun and free course, which will take you from a noob to blockchain pro in a quick few hours 🥳",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/914021509390008410/wealth-507ed3eefbc2f6574a7f2585df3c7cc8.png",
+    category: ["Dev"],
+    parentCompany: "BUIDL Labs",
+  },
+  {
+    name: "Chinstrap",
+    href: "https://docs.chinstrap.io/",
+    description:
+      "Chinstrap is a development environment, testing framework, and asset pipeline focused solely on Tezos, aiming to become Swiss-Army-Knife for Tezos Smart Contract developers.",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/914019988640243742/Image2021-11-2653.png",
+    category: ["Dev"],
+    parentCompany: "Baking Bad",
+  },
+  {
+    name: "tplus",
+    href: "https://tplus.dev/tplus",
+    description:
+      "Tplus is a tool that helps you manage tezos environments (sandboxes and public nodes) for use for development on top of Tezos",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/914026208084263002/a6oxenflhzssnvclglrv.png",
+    category: ["Dev"],
+    parentCompany: "tezos-dev",
   },
   {
     name: "Que Pasa",
