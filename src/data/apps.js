@@ -342,7 +342,9 @@ export let apps = [
       "Claim land and produce tokenized resources in this Blockchain Space Adventure that allows you to become king or conqueror.",
     category: ["Gaming", "Featured"],
     parentCompany: "gif.games",
-    imageSrc: "https://tezotop.io/wp-content/uploads/2021/08/tztop-logo.png",
+    imageSrc:
+      "https://tezotop.io/wp-content/uploads/2021/03/tezotopia-logo.png",
+    discordUrl: "https://discord.gg/saAu2f2adC",
     telegramUrl: "https://t.me/gifgames",
     twitterUrl: "https://twitter.com/gifdotgames",
   },
@@ -809,6 +811,20 @@ export let apps = [
     githubUrl: "https://github.com/flamedefi/SpaceFarm",
     telegramUrl: "https://t.me/FLAMEtokenFarm",
     mediumUrl: "https://flamedefi.medium.com/flame-defi-fb8f5fc8baa9",
+  },
+  {
+    name: "Maelstrom",
+    href: "https://maelstrom.fi/",
+    description:
+      "Maelstom is for privacy transactions on the Tezos blockchain. Mix your Tezos!",
+    category: ["DeFi"],
+    parentCompany: "maelstrom",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/920141669540720730/maelstrom_logo_round.png",
+    twitterUrl: "https://twitter.com/MaelstromMixer",
+    redditUrl:
+      "https://www.reddit.com/user/MaelstromMixer/comments/lizy1k/maelstrom_first_on_chain_mixer_dapp_for_tezos_xtz/",
+    mediumUrl: "https://tezosmixermaelstrom.medium.com/",
   },
   {
     name: "Tezos Moon",
@@ -1579,7 +1595,7 @@ export let apps = [
     category: ["NFT"],
     parentCompany: "Seet",
     imageSrc:
-      "https://pbs.twimg.com/profile_images/1076455911475068931/XtI5g540_400x400.jpg",
+      "https://cdn.discordapp.com/attachments/285826576417816576/920139434303848528/GGkEnBqK_400x400.png",
     twitterUrl: "https://twitter.com/sweet",
     linkedinUrl: "https://www.linkedin.com/company/sweet.io/",
   },
@@ -1609,7 +1625,8 @@ export let apps = [
       "Blockchain-powered travel tech company building B2B and B2C solutions for the travel sector.",
     category: ["Corporate", "Tool"],
     parentCompany: "",
-    imageSrc: "https://cdn.goeureka.io/blob/assets/Logo.png",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/920139777548910642/KrTl1uy3_400x400.png",
     twitterUrl: "https://twitter.com/goeurekatravel",
     mediumUrl: "https://social-23833.medium.com/",
     linkedinUrl: "https://www.linkedin.com/company/goeurekatravel",
