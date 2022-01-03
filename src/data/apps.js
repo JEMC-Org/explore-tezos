@@ -237,7 +237,7 @@ export let apps = [
     category: ["NFT", "Featured"],
     parentCompany: "Marmott",
     imageSrc:
-      "https://pbs.twimg.com/profile_images/1414621441081987074/do_-CPoj_400x400.jpg",
+      "https://cdn.discordapp.com/attachments/285826576417816576/927372848287330314/MzzADvAP_400x400.png",
     telegramUrl: "https://t.co/rHZRI1Lt0s?amp=1",
     twitterUrl: "https://twitter.com/Marmott_io",
     githubUrl: "https://github.com/marmott-io",
@@ -260,7 +260,7 @@ export let apps = [
     category: ["Dev"],
     parentCompany: "Baking Bad",
     imageSrc:
-      "https://pbs.twimg.com/profile_images/1360686063501647876/0jjdKJFy_400x400.jpg",
+      "https://cdn.discordapp.com/attachments/285826576417816576/927374367069995048/Image2022-01-0229.png",
     twitterUrl: "https://twitter.com/TezosBakingBad",
     githubUrl: "https://github.com/baking-bad",
     telegramUrl: "tg://resolve?domain=baking_bad_chat",
