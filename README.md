@@ -1,6 +1,6 @@
-![Alt](https://repobeats.axiom.co/api/embed/c56ae5f680754998c8c0ffa143e409da7c8d711b.svg "Repobeats analytics image")
+# [![ExploreTezosLogo](https://cdn.discordapp.com/attachments/927350967735836762/927368857885245570/ExploreTezosGitHubLogo.png "Explore Tezos Logo")](https://exploretezos.com/)
 
-# ![ExploreTezosLogoUpdated](https://user-images.githubusercontent.com/24372751/147892143-a05f5e92-307a-4673-9f0c-8fb9d4ca7235.png)
+![Alt](https://repobeats.axiom.co/api/embed/c56ae5f680754998c8c0ffa143e409da7c8d711b.svg "Repobeats analytics image")
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2276d571-1763-4d61-a10a-aac751ad6fbf/deploy-status)](https://app.netlify.com/sites/amazing-pike-98af0e/deploys)
 
@@ -10,7 +10,7 @@ Explore Tezos is a website to make the Tezos ecosystem more accessible for every
 
 If you have something that we missed and you would like to contribute to the project, you can follow these steps to put up a pr with the new information.
 
-1. Create a branch from main and name it the app that you are adding, or one of them to the website and your username. Example, `UserName-TempleWallet`
+1. Create a branch from main and name it one of the app that you are adding and your username. Example, `UserName-TezosDomains`
 2. Fill out the JSON fields displayed here with the relevent information for each website. [Descriptions of each field below](#description-of-fields).
 
 ```
@@ -59,15 +59,15 @@ If you have something that we missed and you would like to contribute to the pro
 
 - **URL:** Try to add every URL of the project you can find.
 - **Supported Links:**
-  - **redditUrl** Reddit.com
-  - **twitterUrl** Twitter.com
-  - **discordUrl** Discord.com
-  - **githubUrl** Github.com
-  - **gitlabUrl** Gitlab.com
-  - **telegramUrl** Telegram.org
-  - **linkedinUrl** Linkedin.com
-  - **youtubeUrl** Youtube.com
-  - **mediumUrl** Medium.com
+  - **redditUrl:** Reddit.com
+  - **twitterUrl:** Twitter.com
+  - **discordUrl:** Discord.com
+  - **githubUrl:** Github.com
+  - **gitlabUrl:** Gitlab.com
+  - **telegramUrl:** Telegram.org
+  - **linkedinUrl:** Linkedin.com
+  - **youtubeUrl:** Youtube.com
+  - **mediumUrl:** Medium.com
 
 ## Running Locally
 
