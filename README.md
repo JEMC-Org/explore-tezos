@@ -10,7 +10,7 @@ Explore Tezos is a website to make the Tezos ecosystem more accessible for every
 
 If you have something that we missed and you would like to contribute to the project, you can follow these steps to put up a pr with the new information.
 
-1. Create a branch from main and name it the app that you are adding, or one of them to the website and your username. Example, `UserName-TempleWallet`
+1. Create a branch from main and name it one of the app that you are adding and your username. Example, `UserName-TezosDomains`
 2. Fill out the JSON fields displayed here with the relevent information for each website. [Descriptions of each field below](#description-of-fields).
 
 ```
