@@ -162,7 +162,7 @@ export let apps = [
     name: "Gif Games",
     href: "https://gif.games/",
     description:
-      "Crossing NFTs and Dapps to make fun and interactive worlds where users can collect, earn, and build new virtual worlds!",
+      "Crossing NFTs and dApps to make fun and interactive worlds where users can collect, earn, and build new virtual worlds!",
     category: ["Gaming"],
     parentCompany: "Gif Games",
     imageSrc:
@@ -211,7 +211,7 @@ export let apps = [
     name: "Beacon",
     href: "https://www.walletbeacon.io/",
     description:
-      "Connect your wallet with Beacon! this app is used by any tezos application that needs a wallet to connect to it.",
+      "Connect your wallet with Beacon! This app is used by any Tezos application that needs a wallet to connect to it.",
     category: ["Dev", "Tool", "Featured"],
     parentCompany: "AirGap & Papers",
     imageSrc: "https://docs.walletbeacon.io/img/logo-white.svg",
@@ -246,7 +246,7 @@ export let apps = [
     name: "Open Tezos",
     href: "https://opentezos.com/",
     description:
-      "Welcome Tezos Developers! Explore the technical and economic concepts behind the Tezos Network, experiment with our tutorials, or start building your own Tezos Dapp.",
+      "Welcome, Tezos developers! Explore the technical and economic concepts behind the Tezos Network, experiment with our tutorials, or start building your own Tezos dApp.",
     category: ["Dev"],
     parentCompany: "",
     imageSrc: "https://opentezos.com/img/logo.svg",
@@ -256,7 +256,7 @@ export let apps = [
     name: "Better Call Dev",
     href: "https://better-call.dev/",
     description:
-      "Tezos smart contract explorer by Baking Bad. Explore DApps, check statistics and do advanced searches on the tezos blockchain.",
+      "Tezos smart contract explorer by Baking Bad. Explore dApps, check statistics and do advanced searches on the Tezos blockchain.",
     category: ["Dev"],
     parentCompany: "Baking Bad",
     imageSrc:
@@ -514,7 +514,7 @@ export let apps = [
     twitterUrl: "https://twitter.com/Marigold_Dev",
   },
   {
-    name: "SpiceySwap",
+    name: "SpicySwap",
     href: "https://spicyswap.xyz/#/",
     description:
       "SpicySwap is a next-generation DEX built by Genius Contracts specifically for token-to-token swaps on Tezos. SpicySwap is governed by SalsaDAO ($sDAO), which is the governance entity for the wider suite of Genius Contracts platforms and products.",
@@ -598,7 +598,7 @@ export let apps = [
     name: "Stable Tech",
     href: "https://stable.tech/",
     description:
-      "coordinates the building of stable, scalable, open-source, technologies for the advancement of open Tezos DeFi, and for the betterment of the Tezos ecosystem.",
+      "Coordinates the building of stable, scalable, open-source, technologies for the advancement of open Tezos DeFi, and for the betterment of the Tezos ecosystem.",
     category: ["DeFi"],
     parentCompany: "Tezos Stable Technologies",
     imageSrc: "https://stable.tech/stabletech.png",
@@ -1345,7 +1345,7 @@ export let apps = [
     githubUrl: "https://github.com/tqtezos/TZComet",
   },
   {
-    name: "Build first Dapp on Tezos",
+    name: "Build first dApp on Tezos",
     href: "https://styts.com/your-first-tezos-dapp/",
     description:
       "For this tutorial we will program a simple Hello World application: a good old-fashioned guestbook. It has only entries, authors and timestamps and consists of 1 smart contract.",
@@ -1574,7 +1574,7 @@ export let apps = [
     linkedinUrl: "https://www.linkedin.com/company/papers.ch/",
   },
   {
-    name: "nomadic labs",
+    name: "Nomadic Labs",
     href: "https://www.nomadic-labs.com/",
     description:
       "Working on core development, evolution and adoption of the Tezos protocol in France, Luxembourg and Belgium. Awesome People :]",
