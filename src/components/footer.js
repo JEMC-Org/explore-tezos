@@ -1,6 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter, faDiscord } from "@fortawesome/free-brands-svg-icons";
+import {
+  faTwitter,
+  faDiscord,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 import { faMap } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
@@ -35,6 +39,14 @@ export default function Footer() {
         >
           <FontAwesomeIcon icon={faMap} />
         </a>
+        <a
+          className="px-2 transition ease-in-out duration-300 rounded leading-snug text-center text-primary hover:text-white"
+          href="https://github.com/JEMC-Org/explore-tezos"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
       </div>
       <div className="flex pb-4 flex-col items-center justify-center text-descriptions text-center">
         <a href="https://tzkt.io/tz1g1kNmzUmWnmxmtWbjtkMW4feSYmqAyjpR/operations/">
@@ -43,7 +55,7 @@ export default function Footer() {
       </div>
       <div>
         <p className="w-full h-10 flex justify-center text-xs text-descriptions">
-          Copyright © 2021&nbsp;<a href="https://jemc.xyz"> JEMC </a>. All
+          Copyright © 2022&nbsp;<a href="https://jemc.xyz"> JEMC </a>. All
           Rights Reserved. Made with &nbsp;{" "}
           <span className="text-red">&#9829;</span>
         </p>
