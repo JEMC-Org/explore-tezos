@@ -1632,6 +1632,17 @@ export let apps = [
     linkedinUrl: "https://www.linkedin.com/company/goeurekatravel",
     telegramUrl: "https://t.me/goeureka",
   },
+  {
+    name: "Gap",
+    href: "https://www.gap.com/nft/",
+    description:
+      "Gap hosts several NFT collections of their website. Collect enough NFTs and get one in person!",
+    category: ["Corporate", "NFT"],
+    parentCompany: "Gap",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/931844241620090890/B3iDQ8GR_400x400.png",
+    twitterUrl: "https://twitter.com/gap",
+  },
   // {
   //   name: "Sol2Ligo",
   //   href: "https://madfish-solutions.github.io/sol2ligo/",
