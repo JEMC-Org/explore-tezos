@@ -41,22 +41,18 @@ export let apps = [
     twitterUrl: "https://twitter.com/objktcom",
     discordUrl: "https://discord.gg/m7YFqPvmj6",
   },
-
   {
-    name: "KickFlow",
-    href: "https://kickflow.io/",
+    name: "Crunchy",
+    href: "https://app.crunchy.network/#/",
     description:
-      "A decentralized platform that enables community funding for projects on Tezos. Through Quadratic Funding, we give the community the power to take the best projects forward!",
-    category: ["Dev", "Tool", "Featured"],
-    parentCompany: "KickFlow",
+      "Crunchy provides DeFi services and solutions on Tezos to projects and developers.",
+    category: ["DeFi", "Featured"],
+    parentCompany: "Crunchy.Network",
     imageSrc:
-      "https://cdn.discordapp.com/attachments/285826576417816576/908906208692428830/nigrB6Gp_400x400.png",
-    twitterUrl: "https://twitter.com/kickflowio",
-    discordUrl: "https://discord.gg/nzwRHu6meQ",
-    githubUrl: "https://github.com/kickflowio",
-    telegramUrl: "https://t.me/kickflow",
-    linkedinUrl: "https://www.linkedin.com/company/kickflowio/",
-    youtubeUrl: "https://www.youtube.com/channel/UCA1K1dSRsWn4gPxJ-z5wyNA",
+      "https://app.crunchy.network/img/logo_transparent_background.8aaaf303.png",
+    twitterUrl: "https://twitter.com/CrunchyTez",
+    discordUrl: "https://discord.com/invite/99UnxxgB46",
+    telegramUrl: "https://t.me/crunchy_network",
   },
   {
     name: "Explore Tezos NFT",
@@ -122,17 +118,20 @@ export let apps = [
     linkedinUrl: "https://www.linkedin.com/company/papers.ch/",
   },
   {
-    name: "Crunchy",
-    href: "https://app.crunchy.network/#/",
+    name: "KickFlow",
+    href: "https://kickflow.io/",
     description:
-      "Crunchy provides DeFi services and solutions on Tezos to projects and developers.",
-    category: ["DeFi", "Featured"],
-    parentCompany: "Crunchy.Network",
+      "A decentralized platform that enables community funding for projects on Tezos. Through Quadratic Funding, we give the community the power to take the best projects forward!",
+    category: ["Dev", "Tool", "Featured"],
+    parentCompany: "KickFlow",
     imageSrc:
-      "https://app.crunchy.network/img/logo_transparent_background.8aaaf303.png",
-    twitterUrl: "https://twitter.com/CrunchyTez",
-    discordUrl: "https://discord.com/invite/99UnxxgB46",
-    telegramUrl: "https://t.me/crunchy_network",
+      "https://cdn.discordapp.com/attachments/285826576417816576/908906208692428830/nigrB6Gp_400x400.png",
+    twitterUrl: "https://twitter.com/kickflowio",
+    discordUrl: "https://discord.gg/nzwRHu6meQ",
+    githubUrl: "https://github.com/kickflowio",
+    telegramUrl: "https://t.me/kickflow",
+    linkedinUrl: "https://www.linkedin.com/company/kickflowio/",
+    youtubeUrl: "https://www.youtube.com/channel/UCA1K1dSRsWn4gPxJ-z5wyNA",
   },
   {
     name: "Kolibri",
@@ -146,29 +145,6 @@ export let apps = [
     githubUrl: "https://github.com/hover-labs/kolibri-contracts",
     mediumUrl: "https://kolibri-xtz.medium.com/",
     discordUrl: "https://discord.gg/nkpSN467",
-  },
-  {
-    name: "Baking Bad",
-    href: "https://baking-bad.org/",
-    description:
-      "The best place to check your staking rewards and find the most complete list of Tezos delegation services.",
-    category: ["Tool"],
-    parentCompany: "",
-    imageSrc: "https://baking-bad.org/img/logo-full.png",
-    twitterUrl: "https://twitter.com/TezosBakingBad",
-    discordUrl: "https://discord.gg/aG8XKuwsQd",
-  },
-  {
-    name: "Gif Games",
-    href: "https://gif.games/",
-    description:
-      "Crossing NFTs and Dapps to make fun and interactive worlds where users can collect, earn, and build new virtual worlds!",
-    category: ["Gaming"],
-    parentCompany: "Gif Games",
-    imageSrc:
-      "https://cdn.discordapp.com/attachments/285826576417816576/914023914374590544/hksAgrdA_400x400.png",
-    twitterUrl: "https://twitter.com/gifdotgames",
-    telegramUrl: "https://t.me/gifgames",
   },
   {
     name: "ctez",
@@ -208,6 +184,32 @@ export let apps = [
     githubUrl: "https://github.com/kukai-wallet/kukai",
   },
   {
+    name: "Tzstats",
+    href: "https://tzstats.com/",
+    description:
+      "TzStats is the first Blockchain Analytics Explorer for Tezos.",
+    category: ["Tool", "Featured"],
+    parentCompany: "Blockwatch",
+    imageSrc:
+      "https://pbs.twimg.com/profile_images/1292754365460164608/4XT7kZT6_400x400.jpg",
+    twitterUrl: "https://twitter.com/tzstats",
+    discordUrl: "https://discord.com/invite/D5e98Hw",
+    githubUrl: "https://github.com/blockwatch-cc/tzindex",
+  },
+  {
+    name: "Better Call Dev",
+    href: "https://better-call.dev/",
+    description:
+      "Tezos smart contract explorer by Baking Bad. Explore DApps, check statistics and do advanced searches on the tezos blockchain.",
+    category: ["Dev"],
+    parentCompany: "Baking Bad",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/927374367069995048/Image2022-01-0229.png",
+    twitterUrl: "https://twitter.com/TezosBakingBad",
+    githubUrl: "https://github.com/baking-bad",
+    telegramUrl: "tg://resolve?domain=baking_bad_chat",
+  },
+  {
     name: "Beacon",
     href: "https://www.walletbeacon.io/",
     description:
@@ -243,6 +245,18 @@ export let apps = [
     githubUrl: "https://github.com/marmott-io",
   },
   {
+    name: "Gif Games",
+    href: "https://gif.games/",
+    description:
+      "Crossing NFTs and Dapps to make fun and interactive worlds where users can collect, earn, and build new virtual worlds!",
+    category: ["Gaming"],
+    parentCompany: "Gif Games",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/914023914374590544/hksAgrdA_400x400.png",
+    twitterUrl: "https://twitter.com/gifdotgames",
+    telegramUrl: "https://t.me/gifgames",
+  },
+  {
     name: "Open Tezos",
     href: "https://opentezos.com/",
     description:
@@ -251,19 +265,6 @@ export let apps = [
     parentCompany: "",
     imageSrc: "https://opentezos.com/img/logo.svg",
     gitlabUrl: "https://gitlab.com/tezos-paris-hub/OpenTezos/",
-  },
-  {
-    name: "Better Call Dev",
-    href: "https://better-call.dev/",
-    description:
-      "Tezos smart contract explorer by Baking Bad. Explore DApps, check statistics and do advanced searches on the tezos blockchain.",
-    category: ["Dev"],
-    parentCompany: "Baking Bad",
-    imageSrc:
-      "https://cdn.discordapp.com/attachments/285826576417816576/927374367069995048/Image2022-01-0229.png",
-    twitterUrl: "https://twitter.com/TezosBakingBad",
-    githubUrl: "https://github.com/baking-bad",
-    telegramUrl: "tg://resolve?domain=baking_bad_chat",
   },
   {
     name: "Pixel Potus",
@@ -419,6 +420,30 @@ export let apps = [
     telegramUrl: "https://t.me/tezid",
   },
   {
+    name: "Baking Bad",
+    href: "https://baking-bad.org/",
+    description:
+      "The best place to check your staking rewards and find the most complete list of Tezos delegation services.",
+    category: ["Tool"],
+    parentCompany: "",
+    imageSrc: "https://baking-bad.org/img/logo-full.png",
+    twitterUrl: "https://twitter.com/TezosBakingBad",
+    discordUrl: "https://discord.gg/aG8XKuwsQd",
+  },
+  {
+    name: "Juster.fi",
+    href: "https://juster.fi/",
+    description:
+      "an on-chain smart contract platform allowing users to take part in an automated betting market by creating events, providing liquidity to them, and making bets. ",
+    category: ["Gaming"],
+    parentCompany: "Baking Bad",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/935333546279731210/86246809.png",
+    twitterUrl: "https://twitter.com/TezosBakingBad",
+    discordUrl: "https://discord.com/invite/FeGDCkHhnB",
+    githubUrl: "https://github.com/juster-finance",
+  },
+  {
     name: "Tezos Profiles",
     href: "https://tzprofiles.com/",
     description:
@@ -432,8 +457,21 @@ export let apps = [
     twitterUrl: "https://twitter.com/SpruceID",
   },
   {
-    name: "DNS.xyz",
+    name: "ArtForge",
     href: "https://dns.xyz/",
+    description:
+      "ArtForge is the first of its kind all-in-one NFT platform offering artists and collectors a full set of services to create and mint NFT collections including generative features, crowdsales, and a marketplace. ",
+    category: ["NFT"],
+    parentCompany: "ArtForge",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/935325621171675196/mKWxr9No_400x400.png",
+    twitterUrl: "https://twitter.com/ArtForge_io",
+    discordUrl: "https://discord.com/invite/qjwm2AEVMf",
+    telegramUrl: "https://t.me/artforge_io",
+  },
+  {
+    name: "DNS.xyz",
+    href: "https://artforge.io",
     description:
       "We turn all your wallets into one decentralized profile. You can show off your identity, connect your wallet and show your NFTs.",
     category: ["Tool"],
@@ -457,19 +495,6 @@ export let apps = [
     telegramUrl: "https://t.me/stakercommunity",
   },
   {
-    name: "Tzstats",
-    href: "https://tzstats.com/",
-    description:
-      "TzStats is the first Blockchain Analytics Explorer for Tezos.",
-    category: ["Tool", "Featured"],
-    parentCompany: "Blockwatch",
-    imageSrc:
-      "https://pbs.twimg.com/profile_images/1292754365460164608/4XT7kZT6_400x400.jpg",
-    twitterUrl: "https://twitter.com/tzstats",
-    discordUrl: "https://discord.com/invite/D5e98Hw",
-    githubUrl: "https://github.com/blockwatch-cc/tzindex",
-  },
-  {
     name: "Youves",
     href: "https://youves.com/",
     description: "Your tool on Tezos for asset creation and management.",
@@ -491,6 +516,17 @@ export let apps = [
       "https://pbs.twimg.com/profile_images/1397164534624837637/wRzkz4Io_400x400.jpg",
     twitterUrl: "https://twitter.com/oneofnft",
     discordUrl: "https://discord.com/invite/oneofnft",
+  },
+  {
+    name: "Versum",
+    href: "https://versum.xyz/explore",
+    description:
+      "Versum is an NFT platform and metaverse on the Tezos blockchain.",
+    category: ["NFT"],
+    parentCompany: "",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/935329140649906196/Screen_Shot_2022-01-24_at_6.22.52_PM.png",
+    discordUrl: "https://discord.gg/xkf6TG7A2W",
   },
   {
     name: "TzStamp",
@@ -685,6 +721,19 @@ export let apps = [
     twitterUrl: "https://twitter.com/SmartPy_io",
     telegramUrl: "https://t.me/SmartPy_io",
     mediumUrl: "https://smartpy-io.medium.com/",
+  },
+  {
+    name: "Encode Club",
+    href: "https://www.encode.club/tezos",
+    description:
+      "Encode Club is on a mission to help ambitious, talented people achieve their personal and professional goals together in web3 through organising high quality programmes such as hackathons, coding bootcamps, educational workshops and accelerators in partnership with the leading blockchain protocols.",
+    category: ["Dev"],
+    parentCompany: "",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/935326227701567518/encode_club_white_01.png",
+    twitterUrl: "https://twitter.com/encodeclub",
+    youtubeUrl: "https://www.youtube.com/channel/UC8MwfizU_2GYh_LugWJom6A",
+    mediumUrl: "https://medium.com/encode-club/",
   },
   {
     name: "Alien's Farm",
@@ -912,6 +961,18 @@ export let apps = [
     twitterUrl: "https://twitter.com/AlcisBragi",
   },
   {
+    name: "verses",
+    href: "https://www.verses.gg/",
+    description:
+      "Over 365 days Verses will take you on a journey throughout the multiverse. Each day, the bold and ingenious explorers from the Para Initiative will break into different realities and discover new pieces of art and the stories behind them.",
+    category: ["NFT"],
+    parentCompany: "",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/935336221272580136/61c38c4e388ee9093acd74b2_vertical-stack_blackbg.png",
+    twitterUrl: "https://twitter.com/playverses",
+    discordUrl: "https://discord.gg/Zs6wTd63Yn",
+  },
+  {
     name: "Homebase",
     href: "https://tezos-homebase.io/",
     description:
@@ -1047,7 +1108,7 @@ export let apps = [
     twitterUrl: "https://twitter.com/BazartNFT",
     GithubUrl: "https://github.com/BazaarMarket/Bazaar-Market",
     DiscordUrl: "https://discord.com/invite/mnYZwv8s5a",
-    TelegramdUrl: "https://t.me/joinchat/L_izbzRXxLNhNTY5",
+    TelegramUrl: "https://t.me/joinchat/L_izbzRXxLNhNTY5",
   },
   {
     name: "FA 2 Token Batch Sender",
@@ -1298,6 +1359,40 @@ export let apps = [
     twitterUrl: "https://twitter.com/buttonists",
     githubUrl: "https://nftbutton.com/#",
     telegramUrl: "https://t.me/buttonists",
+  },
+  {
+    name: "tezosdegenclub",
+    href: "https://www.tezosdegenclub.com/",
+    description: "Bet and flip a coin.",
+    category: ["Gaming"],
+    parentCompany: "",
+    imageSrc: "https://www.tezosdegenclub.com/coinlogo.png",
+    twitterUrl: "https://twitter.com/TezosDegenClub",
+    discordUrl: "https://discord.gg/RN9bc5jUat",
+  },
+  {
+    name: "TezRockz",
+    href: "https://tezrockz.tez.page/",
+    description:
+      "TezRockz is a chill NFT game about collecting rocks and stacking them.  The rocks are traded on OBJKT.com in the Tezos blockchain.",
+    category: ["Gaming", "NFT"],
+    parentCompany: "",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/935332696379514931/Screen_Shot_2022-01-24_at_6.37.58_PM.png",
+    twitterUrl: "https://twitter.com/tezrockz",
+    discordUrl: "https://discord.gg/25t4evSC9K",
+  },
+  {
+    name: "Stone Age",
+    href: "https://stoneage.originx.games/",
+    description: "First open and decentralised Metaverse on Tezos",
+    category: ["Gaming"],
+    parentCompany: "originx",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/935333347805245470/txHHPQXP_400x400.png",
+    twitterUrl: "https://twitter.com/OriginXGames",
+    discordUrl: "http://discord.gg/BYFY76KPhd",
+    mediumUrl: "https://originx-games.medium.com/",
   },
   {
     name: "Magic Button",
@@ -1588,6 +1683,17 @@ export let apps = [
     linkedinUrl: "https://www.linkedin.com/company/nomadic-labs/",
   },
   {
+    name: "europeantech school",
+    href: "https://europeantech.school/",
+    description: "Your cohort-based online blockchain school",
+    category: ["Corporate"],
+    parentCompany: "",
+    imageSrc:
+      "https://europeantech.school/wp-content/uploads/2021/06/cold-smooth-tasty.-e1622821546856.png",
+    twitterUrl: "https://twitter.com/EuroTechSchool",
+    linkedinUrl: "https://www.linkedin.com/company/european-tech-school-ebc/",
+  },
+  {
     name: "Sweet",
     href: "https://about.sweet.io/",
     description:
@@ -1642,6 +1748,18 @@ export let apps = [
     imageSrc:
       "https://cdn.discordapp.com/attachments/285826576417816576/931844241620090890/B3iDQ8GR_400x400.png",
     twitterUrl: "https://twitter.com/gap",
+  },
+  {
+    name: "Werenode",
+    href: "https://werenode.com/",
+    description:
+      "Connect every charging equipement and allow anybody to share its own and be compensated seamlessly. Ready for your clean and sustainable mobility!",
+    category: ["Corporate"],
+    parentCompany: "Werenode",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/935331074366668840/werenode_logo_text_250px.png",
+    twitterUrl: "https://twitter.com/werenode",
+    telegramUrl: "https://t.me/joinchat/20948tdORW1hZTlk",
   },
   // {
   //   name: "Sol2Ligo",
