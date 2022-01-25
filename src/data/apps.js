@@ -147,17 +147,6 @@ export let apps = [
     discordUrl: "https://discord.gg/nkpSN467",
   },
   {
-    name: "Baking Bad",
-    href: "https://baking-bad.org/",
-    description:
-      "The best place to check your staking rewards and find the most complete list of Tezos delegation services.",
-    category: ["Tool"],
-    parentCompany: "",
-    imageSrc: "https://baking-bad.org/img/logo-full.png",
-    twitterUrl: "https://twitter.com/TezosBakingBad",
-    discordUrl: "https://discord.gg/aG8XKuwsQd",
-  },
-  {
     name: "ctez",
     href: "https://ctez.app/",
     description:
@@ -276,19 +265,6 @@ export let apps = [
     parentCompany: "",
     imageSrc: "https://opentezos.com/img/logo.svg",
     gitlabUrl: "https://gitlab.com/tezos-paris-hub/OpenTezos/",
-  },
-  {
-    name: "Better Call Dev",
-    href: "https://better-call.dev/",
-    description:
-      "Tezos smart contract explorer by Baking Bad. Explore dApps, check statistics and do advanced searches on the Tezos blockchain.",
-    category: ["Dev"],
-    parentCompany: "Baking Bad",
-    imageSrc:
-      "https://cdn.discordapp.com/attachments/285826576417816576/927374367069995048/Image2022-01-0229.png",
-    twitterUrl: "https://twitter.com/TezosBakingBad",
-    githubUrl: "https://github.com/baking-bad",
-    telegramUrl: "tg://resolve?domain=baking_bad_chat",
   },
   {
     name: "Pixel Potus",
