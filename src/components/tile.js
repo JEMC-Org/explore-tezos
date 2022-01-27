@@ -26,9 +26,8 @@ export default function Tile({ app }) {
         <div className="flex justify-center rounded-lg h-20 w-auto">
           <img
             src={app.imageSrc}
-            alt={app.name}
+            alt={app.name + " Image"}
             className="max-h-20 rounded"
-            aria-label={app.name + " Image"}
           />
         </div>
         <div className="m-1 pt-2 pb-10">
