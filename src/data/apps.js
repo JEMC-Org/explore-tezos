@@ -1161,7 +1161,8 @@ export let apps = [
       "TzGo is the officially supported Tezos Go client library by Blockwatch. This SDK is free to use in commercial and non-commercial projects with a permissive license.",
     category: ["Dev"],
     parentCompany: "",
-    imageSrc: "",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/936087156286431252/Image2022-01-2653.png",
     githubUrl: "https://github.com/blockwatch-cc/tzgo",
   },
   {
@@ -1594,7 +1595,8 @@ export let apps = [
     description: "Developer tools for the Michelson Language",
     category: ["Dev"],
     parentCompany: "",
-    imageSrc: "",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/936085659855257610/Image2022-01-2650.png",
     gitlabUrl: "https://gitlab.com/morley-framework/morley",
   },
   {
@@ -1648,7 +1650,7 @@ export let apps = [
     category: ["Corporate"],
     parentCompany: "",
     imageSrc:
-      "https://www.mclarenstore.com/on/demandware.static/Sites-MCL-Site/-/default/dw65c73a84/images/logo.svg",
+      "https://cdn.discordapp.com/attachments/285826576417816576/936086400992952340/vZQyt4ME_400x400.png",
   },
   {
     name: "N.Y. Mets",
