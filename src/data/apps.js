@@ -997,6 +997,15 @@ export let apps = [
     githubUrl: "https://github.com/dOrgTech/homebase-app",
   },
   {
+    name: "Tezos Academy",
+    href: "https://tezosacademy.io/",
+    description:
+      "Tezos Academy is a fun interactive tutorial to the LIGO language. It is compatible with PascaLIGO, CameLIGO and ReasonLIGO with an interactive editor",
+    category: ["Dev"],
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/936065973285441556/ship.png",
+  },
+  {
     name: "TezTracker",
     href: "https://teztracker.com/",
     description:
