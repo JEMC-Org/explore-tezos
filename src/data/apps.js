@@ -653,6 +653,18 @@ export let apps = [
     telegramUrl: "https://t.me/TezFin",
   },
   {
+    name: "TezDAO",
+    href: "https://tezdao.org/",
+    description:
+      "TezDAO is the Decentralized Autonomous Organisation empowering the community to propose and fund projects on Tezos.",
+    category: ["Tool"],
+    parentCompany: "TezDAO",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/936062894129442857/tezoslogo3.png",
+    twitterUrl: "https://twitter.com/tezDAO",
+    discordUrl: "https://discord.com/invite/7BYTYyZfdK",
+  },
+  {
     name: "Instaraise",
     href: "https://www.instaraise.io/",
     description:
@@ -983,6 +995,15 @@ export let apps = [
       "https://tezos-homebase.io/static/media/homebase_logo.bd22e86f.svg",
     discordUrl: "https://discord.com/invite/Rgf72KEH",
     githubUrl: "https://github.com/dOrgTech/homebase-app",
+  },
+  {
+    name: "Tezos Academy",
+    href: "https://tezosacademy.io/",
+    description:
+      "Tezos Academy is a fun interactive tutorial to the LIGO language. It is compatible with PascaLIGO, CameLIGO and ReasonLIGO with an interactive editor",
+    category: ["Dev"],
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/936065973285441556/ship.png",
   },
   {
     name: "TezTracker",
