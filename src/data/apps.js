@@ -653,6 +653,18 @@ export let apps = [
     telegramUrl: "https://t.me/TezFin",
   },
   {
+    name: "TezDAO",
+    href: "https://tezdao.org/",
+    description:
+      "TezDAO is the Decentralized Autonomous Organisation empowering the community to propose and fund projects on Tezos.",
+    category: ["Tool"],
+    parentCompany: "TezDAO",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/936062894129442857/tezoslogo3.png",
+    twitterUrl: "https://twitter.com/tezDAO",
+    discordUrl: "https://discord.com/invite/7BYTYyZfdK",
+  },
+  {
     name: "Instaraise",
     href: "https://www.instaraise.io/",
     description:
