@@ -1055,6 +1055,16 @@ export let apps = [
     githubUrl: "https://github.com/Cryptonomic/Nautilus-Cloud-Ui",
   },
   {
+    name: "Matter DeFi",
+    href: "https://matterdefi.xyz/#/",
+    description:
+      "Matter DeFi is a yield farming platform aimed to incentivize providing liquidity on SpicySwap. Users may stake SpicySwap LP Tokens to earn the protocol token MTTR.",
+    category: ["DeFi"],
+    parentCompany: "Genius Contracts",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/940440750586462298/mttr.png",
+  },
+  {
     name: "TezBridge",
     href: "https://docs.tezbridge.com/",
     description:
