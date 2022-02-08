@@ -985,6 +985,18 @@ export let apps = [
     discordUrl: "https://discord.gg/Zs6wTd63Yn",
   },
   {
+    name: "Tezos-Artcast",
+    href: "https://tezos-artcast.xyz/",
+    description:
+      "The tezos-artcast: Conversations & Explorations in the world of NFT Art Music Games and more!",
+    category: ["NFT", "Tool"],
+    parentCompany: "",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/940445471581831168/FllyWYdk_400x400.png",
+    twitterUrl: "https://twitter.com/ArtcastTezos",
+    youtubeUrl: "https://www.youtube.com/channel/UC6baw-aTxb3ZbrdkwREqK_ws",
+  },
+  {
     name: "Homebase",
     href: "https://tezos-homebase.io/",
     description:
@@ -1026,12 +1038,13 @@ export let apps = [
     twitterUrl: "https://twitter.com/fredcy",
   },
   {
-    name: "Faucet Tzalpha",
-    href: "https://faucet.tzalpha.net/",
+    name: "Faucet Teztnets",
+    href: "https://teztnets.xyz/",
     description: "A faucet for the Tezos test net",
     category: ["Dev", "Tool"],
     parentCompany: "",
-    imageSrc: "https://faucet.tzalpha.net/img/faucet.png",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/940444331930701864/63163636.png",
   },
   {
     name: "Tezos FA Tokens Faucet",
@@ -1053,6 +1066,16 @@ export let apps = [
     imageSrc:
       "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIiIGhlaWdodD0iIiB2aWV3Qm94PSIwIDAgMjggMjMiPgogICAgPGcgZmlsbD0ibm9uZSI+CiAgICAgICAgPHBhdGggZmlsbD0iIzdEQzBERSIgZD0iTTIxLjM3NiA3LjE5M2MyLjU1IDIuNTUgMy42NyA3LjEyOCAzLjM2IDEwLjQ1OCAxLjc3Mi00LjIzLjkzOS05LjI5My0yLjUwNi0xMi43MzdDMTYuNTQ0LS43NyA3LjMyNi0uNzcgMS42NCA0LjkxNGwxLjU5MyAxLjQ1YzUuNzc0LTUgMTMuMjE1LTQuMDk4IDE4LjE0My44Mjl6IiB0cmFuc2Zvcm09InNjYWxlKDEgLTEpIHJvdGF0ZSgtMzUgLTIyLjQ3MyAtMi4xNzIpIi8+CiAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTE1LjUyNyAyNC4wNmMtMi41OTkgMC01LjA0MS0xLjAwMS02Ljg3OC0yLjgxOC0yLjgxNi0yLjc4NS0zLjA0Ni03LjE3NC0uNjkxLTEwLjIyMkwuOTM1IDQuNjk4bC4zMTYtLjMxMmM1LjgzMi01Ljc2OSAxNS4zMjItNS43NjggMjEuMTU0IDAgMi4yNzYgMi4yNTEgMy41MyA1LjI0NCAzLjUzIDguNDI4IDAgMy4xODQtMS4yNTQgNi4xNzctMy41MyA4LjQyOC0xLjgzOCAxLjgxNy00LjI4IDIuODE4LTYuODc4IDIuODE4ek0xMy4xNTkgOS4yMzhjLTEuNDE1IDAtMi44My41MzItMy45MDcgMS41OTgtMi43MzUgMi43MDUtMi43MzUgNy4xMDUgMCA5LjgxIDEuNjc2IDEuNjU4IDMuOTA0IDIuNTcgNi4yNzUgMi41NyAyLjM3IDAgNC41OTgtLjkxMiA2LjI3NC0yLjU3IDIuMTE2LTIuMDkyIDMuMjgtNC44NzQgMy4yOC03LjgzMnMtMS4xNjQtNS43NC0zLjI4LTcuODMxQzE5LjEzNyAyLjM0OCAxNS41OTUuODk2IDExLjgyOC44OTZjLTMuNjE4IDAtNy4wMjkgMS4zMzktOS42NTMgMy43NzhsNi4zMzcgNS43MDRjLjA0NS0uMDQ2LjA5LS4wOTMuMTM3LS4xMzkgMi40ODctMi40NiA2LjUzNC0yLjQ1OSA5LjAyIDAgLjk4Ljk3IDEuNTIgMi4yNTggMS41MiAzLjYyOSAwIDEuMzctLjU0IDIuNjU5LTEuNTIgMy42MjgtMS42NSAxLjYzMy00LjMzOCAxLjYzMy01Ljk5IDAtMS4zNTQtMS4zNC0xLjM1NC0zLjUxOSAwLTQuODU5IDEuMTE4LTEuMTA0IDIuOTM1LTEuMTA0IDQuMDUxIDAgLjQ1LjQ0NC42OTYgMS4wMzUuNjk2IDEuNjYzIDAgLjYyOC0uMjQ3IDEuMjE4LS42OTYgMS42NjItLjM3NS4zNzEtLjg3NC41NzUtMS40MDQuNTc1LS41MyAwLTEuMDMtLjIwNC0xLjQwNS0uNTc1bC42MDMtLjU5N2MuMjE0LjIxMi40OTkuMzI5LjgwMi4zMjkuMzAzIDAgLjU4OC0uMTE3LjgwMi0uMzI5LjI4OC0uMjg0LjQ0Ni0uNjYzLjQ0Ni0xLjA2NSAwLS40MDMtLjE1OC0uNzgxLS40NDYtMS4wNjYtLjc4NC0uNzc2LTIuMDYtLjc3NS0yLjg0NSAwLTEuMDIxIDEuMDEtMS4wMjEgMi42NTUgMCAzLjY2NiAxLjMyIDEuMzA1IDMuNDY1IDEuMzA0IDQuNzg0IDAgLjgyLS44MSAxLjI3LTEuODg2IDEuMjctMy4wMzIgMC0xLjE0NS0uNDUtMi4yMjItMS4yNy0zLjAzMi0xLjA3OC0xLjA2NS0yLjQ5My0xLjU5OC0zLjkwOC0xLjU5OHoiIHRyYW5zZm9ybT0ic2NhbGUoMSAtMSkgcm90YXRlKC0zNSAtMjIuNDczIC0yLjE3MikiLz4KICAgIDwvZz4KPC9zdmc+Cg==",
     githubUrl: "https://github.com/Cryptonomic/Nautilus-Cloud-Ui",
+  },
+  {
+    name: "Matter DeFi",
+    href: "https://matterdefi.xyz/#/",
+    description:
+      "Matter DeFi is a yield farming platform aimed to incentivize providing liquidity on SpicySwap. Users may stake SpicySwap LP Tokens to earn the protocol token MTTR.",
+    category: ["DeFi"],
+    parentCompany: "Genius Contracts",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/940440750586462298/mttr.png",
   },
   {
     name: "TezBridge",
@@ -1086,6 +1109,18 @@ export let apps = [
       "https://cdn.discordapp.com/attachments/285826576417816576/902751809611923466/Screen_Shot_2021-10-26_at_9.53.19_PM.png",
     twitterUrl: "https://twitter.com/airgap_it",
     githubUrl: "https://github.com/tzbutton/tzbutton",
+  },
+  {
+    name: "tz1and",
+    href: "https://www.tz1and.com/",
+    description:
+      "A virtual wold/nft marketplace. You can collect Items, build stuff, and build together with others. The world is stored completely on the blockchain.",
+    category: ["NFT"],
+    parentCompany: "tz1and",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/940443421104029748/logo512.png",
+    twitterUrl: "https://twitter.com/tz1and",
+    discordUrl: "https://discord.gg/fbpy4QdzSp",
   },
   {
     name: "HERA",
