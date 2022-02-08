@@ -1026,12 +1026,13 @@ export let apps = [
     twitterUrl: "https://twitter.com/fredcy",
   },
   {
-    name: "Faucet Tzalpha",
-    href: "https://faucet.tzalpha.net/",
+    name: "Faucet Teztnets",
+    href: "https://teztnets.xyz/",
     description: "A faucet for the Tezos test net",
     category: ["Dev", "Tool"],
     parentCompany: "",
-    imageSrc: "https://faucet.tzalpha.net/img/faucet.png",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/940444331930701864/63163636.png",
   },
   {
     name: "Tezos FA Tokens Faucet",
