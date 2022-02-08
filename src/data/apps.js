@@ -1098,6 +1098,18 @@ export let apps = [
     githubUrl: "https://github.com/tzbutton/tzbutton",
   },
   {
+    name: "tz1and",
+    href: "https://www.tz1and.com/",
+    description:
+      "A virtual wold/nft marketplace. You can collect Items, build stuff, and build together with others. The world is stored completely on the blockchain.",
+    category: ["NFT"],
+    parentCompany: "tz1and",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/940443421104029748/logo512.png",
+    twitterUrl: "https://twitter.com/tz1and",
+    discordUrl: "https://discord.gg/fbpy4QdzSp",
+  },
+  {
     name: "HERA",
     href: "https://heranetwork.co/",
     description: "A DeFi Hub on Tezos network.",
