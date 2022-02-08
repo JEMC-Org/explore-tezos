@@ -985,6 +985,18 @@ export let apps = [
     discordUrl: "https://discord.gg/Zs6wTd63Yn",
   },
   {
+    name: "Tezos-Artcast",
+    href: "https://tezos-artcast.xyz/",
+    description:
+      "The tezos-artcast: Conversations & Explorations in the world of NFT Art Music Games and more!",
+    category: ["NFT", "Tool"],
+    parentCompany: "",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/940445471581831168/FllyWYdk_400x400.png",
+    twitterUrl: "https://twitter.com/ArtcastTezos",
+    youtubeUrl: "https://www.youtube.com/channel/UC6baw-aTxb3ZbrdkwREqK_ws",
+  },
+  {
     name: "Homebase",
     href: "https://tezos-homebase.io/",
     description:
