@@ -21,7 +21,8 @@ export let apps = [
       "QuipuSwap is an automated market-making (AMM) decentralized exchange (DEX) on the Tezos blockchain. QuipuSwap uses liquidity Pools the same way as UniSwap.",
     category: ["DeFi", "Featured"],
     parentCompany: "MadFish Solutions",
-    imageSrc: "https://quipuswap.com/img/logo.87f215cb.png",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/941484119509073920/quipu.png",
     redditUrl: "https://www.reddit.com/r/MadFishCommunity/",
     twitterUrl: "https://twitter.com/madfishofficial",
     discordUrl: "https://discord.com/invite/qFRZ8kVzkv",
@@ -1118,7 +1119,7 @@ export let apps = [
     category: ["NFT"],
     parentCompany: "tz1and",
     imageSrc:
-      "https://cdn.discordapp.com/attachments/285826576417816576/940443421104029748/logo512.png",
+      "https://cdn.discordapp.com/attachments/285826576417816576/941483007393542164/tezlandWB512.png",
     twitterUrl: "https://twitter.com/tz1and",
     discordUrl: "https://discord.gg/fbpy4QdzSp",
   },
