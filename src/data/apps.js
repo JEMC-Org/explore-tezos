@@ -274,7 +274,8 @@ export let apps = [
       "PixelPotus is a digital collectable competition built on the Tezos blockchain.",
     category: ["NFT", "Gaming", "Featured"],
     parentCompany: "",
-    imageSrc: "https://www.pixelpotus.com/img/potus.c3aeacbd.gif",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/960066980419883018/unknown.png",
     twitterUrl: "https://twitter.com/PixelPotus",
     discordUrl: "https://discord.gg/CbdbvwtwkM",
     telegramUrl: "https://t.me/pixelpotus",
@@ -374,6 +375,17 @@ export let apps = [
     githubUrl: "https://github.com/hicetnunc2000",
     redditUrl: "https://www.reddit.com/r/hicetnunc",
     telegramUrl: "https://t.me/hicetnunc2000",
+  },
+  {
+    name: "Naan Wallet",
+    href: "https://www.naanwallet.com/",
+    description:
+      "Naan has all the flavours you crave for in the palm of your hand. An easy-to-use mobile wallet, ready for all your DeFi needs on the Tezos blockchain. Created by Tezsure",
+    category: ["Wallet", "Featured"],
+    parentCompany: "Tezsure",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/960065613483606067/unknown.png",
+    twitterUrl: "https://twitter.com/naanwallet",
   },
   {
     name: "Kalamint",
@@ -1393,7 +1405,8 @@ export let apps = [
       "Liquibrium is a decentralized exchange for tezos ecosystem which focuses on stable assets and provides the most optimum exchange value.",
     category: ["DeFi"],
     parentCompany: "",
-    imageSrc: "https://liquibrium.netlify.app/static/media/demo.2229015e.png",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/960067609288663070/unknown.png",
   },
   {
     name: "Radion.fm",
@@ -1612,7 +1625,7 @@ export let apps = [
     category: ["Dev"],
     parentCompany: "Baking Bad",
     imageSrc:
-      "https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=2,format=auto/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-28427.appspot.com%2Fo%2Fspaces%252F-MYAMf2BH-LOIc8YWoHV%252Favatar-1618502720833.png%3Fgeneration%3D1618502721094932%26alt%3Dmedia",
+      "https://cdn.discordapp.com/attachments/285826576417816576/960068299138416710/unknown.png",
     discordUrl: "https://discord.gg/aG8XKuwsQd",
   },
   {
@@ -1634,20 +1647,6 @@ export let apps = [
     imageSrc:
       "https://cdn.discordapp.com/attachments/285826576417816576/936085659855257610/Image2022-01-2650.png",
     gitlabUrl: "https://gitlab.com/morley-framework/morley",
-  },
-  {
-    name: "Rocket",
-    href: "https://rocketlaunchpad.io/",
-    description:
-      "The link between Tezos based projects and early investors. All projects will be vetted for code, quality and overall objective, bringing users and projects together",
-    category: ["DeFi"],
-    parentCompany: "Crunchy",
-    imageSrc:
-      "https://pbs.twimg.com/profile_images/1419484137367515136/BHSvs59m_400x400.jpg",
-    twitterUrl: "https://twitter.com/rocketlaunchpd",
-    telegramUrl: "https://t.me/rocketlaunchpd",
-    mediumUrl: "https://rocketlaunchpad.medium.com/",
-    discordUrl: "https://discord.com/invite/aQVBj7KKxf",
   },
   {
     name: "Wolfram",
