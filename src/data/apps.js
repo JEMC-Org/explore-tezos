@@ -346,7 +346,7 @@ export let apps = [
     category: ["Gaming", "Featured"],
     parentCompany: "gif.games",
     imageSrc:
-      "https://tezotop.io/wp-content/uploads/2021/03/tezotopia-logo.png",
+      "https://cdn.discordapp.com/attachments/285826576417816576/973426705165320222/unknown.png",
     discordUrl: "https://discord.gg/saAu2f2adC",
     telegramUrl: "https://t.me/gifgames",
     twitterUrl: "https://twitter.com/gifdotgames",
@@ -526,7 +526,7 @@ export let apps = [
     category: ["NFT"],
     parentCompany: "OneOF",
     imageSrc:
-      "https://pbs.twimg.com/profile_images/1397164534624837637/wRzkz4Io_400x400.jpg",
+      "https://cdn.discordapp.com/attachments/285826576417816576/973427196142178314/unknown.png",
     twitterUrl: "https://twitter.com/oneofnft",
     discordUrl: "https://discord.com/invite/oneofnft",
   },
@@ -854,7 +854,8 @@ export let apps = [
       "Farming shouldn’t be thought of as a bad user experience. Welcome to $FARM, a Tezos based farming platform focused on the user and built by community members.",
     category: ["DeFi"],
     parentCompany: "",
-    imageSrc: "https://farmsoil.xyz/images/app_logo_green.png",
+    imageSrc:
+      "https://media.discordapp.net/attachments/285826576417816576/973428750333145088/unknown.png",
     twitterUrl: "https://twitter.com/farmsomesoil",
     telegramUrl: "https://t.me/farmsomesoil",
     mediumUrl: "https://farmsoil.medium.com/",
@@ -1341,18 +1342,18 @@ export let apps = [
     telegramUrl: "https://t.me/tzcolors",
     twitterUrl: "https://twitter.com/tzcolors",
   },
-  {
-    name: "CricTez",
-    href: "https://crictez.io/",
-    description:
-      "Collect limited edition cricket collectibles(NFTs), trade on marketplace & compete in live matches to earn exclusive rewards",
-    category: ["NFT"],
-    parentCompany: "CricTez",
-    imageSrc:
-      "https://cdn.discordapp.com/attachments/285826576417816576/909286705931096094/mhdAAAAAElFTkSuQmCC.png",
-    twitterUrl: "https://twitter.com/crictez_io",
-    discordUrl: "https://discord.com/invite/dHaBeKjEDj",
-  },
+  // {
+  //   name: "CricTez",
+  //   href: "https://crictez.io/",
+  //   description:
+  //     "Collect limited edition cricket collectibles(NFTs), trade on marketplace & compete in live matches to earn exclusive rewards",
+  //   category: ["NFT"],
+  //   parentCompany: "CricTez",
+  //   imageSrc:
+  //     "https://cdn.discordapp.com/attachments/285826576417816576/909286705931096094/mhdAAAAAElFTkSuQmCC.png",
+  //   twitterUrl: "https://twitter.com/crictez_io",
+  //   discordUrl: "https://discord.com/invite/dHaBeKjEDj",
+  // },
   {
     name: "Netezos",
     href: "https://netezos.dev/",
@@ -1577,13 +1578,15 @@ export let apps = [
   },
   {
     name: "Chinstrap",
-    href: "https://docs.chinstrap.io/",
+    href: "https://chinstrap.io/",
     description:
       "Chinstrap is a development environment, testing framework, and asset pipeline focused solely on Tezos, aiming to become Swiss-Army-Knife for Tezos Smart Contract developers.",
     imageSrc:
-      "https://cdn.discordapp.com/attachments/285826576417816576/914019988640243742/Image2021-11-2653.png",
+      "https://cdn.discordapp.com/attachments/285826576417816576/973426285567160360/unknown.png",
     category: ["Dev"],
     parentCompany: "Baking Bad",
+    githubUrl: "https://github.com/ant4g0nist/chinstrap",
+    twitterUrl: "https://twitter.com/chinstrap_io",
   },
   {
     name: "tplus",
