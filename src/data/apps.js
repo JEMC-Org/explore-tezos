@@ -1342,18 +1342,18 @@ export let apps = [
     telegramUrl: "https://t.me/tzcolors",
     twitterUrl: "https://twitter.com/tzcolors",
   },
-  {
-    name: "CricTez",
-    href: "https://crictez.io/",
-    description:
-      "Collect limited edition cricket collectibles(NFTs), trade on marketplace & compete in live matches to earn exclusive rewards",
-    category: ["NFT"],
-    parentCompany: "CricTez",
-    imageSrc:
-      "https://cdn.discordapp.com/attachments/285826576417816576/909286705931096094/mhdAAAAAElFTkSuQmCC.png",
-    twitterUrl: "https://twitter.com/crictez_io",
-    discordUrl: "https://discord.com/invite/dHaBeKjEDj",
-  },
+  // {
+  //   name: "CricTez",
+  //   href: "https://crictez.io/",
+  //   description:
+  //     "Collect limited edition cricket collectibles(NFTs), trade on marketplace & compete in live matches to earn exclusive rewards",
+  //   category: ["NFT"],
+  //   parentCompany: "CricTez",
+  //   imageSrc:
+  //     "https://cdn.discordapp.com/attachments/285826576417816576/909286705931096094/mhdAAAAAElFTkSuQmCC.png",
+  //   twitterUrl: "https://twitter.com/crictez_io",
+  //   discordUrl: "https://discord.com/invite/dHaBeKjEDj",
+  // },
   {
     name: "Netezos",
     href: "https://netezos.dev/",
