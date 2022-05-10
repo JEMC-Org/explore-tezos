@@ -1577,13 +1577,15 @@ export let apps = [
   },
   {
     name: "Chinstrap",
-    href: "https://docs.chinstrap.io/",
+    href: "https://chinstrap.io/",
     description:
       "Chinstrap is a development environment, testing framework, and asset pipeline focused solely on Tezos, aiming to become Swiss-Army-Knife for Tezos Smart Contract developers.",
     imageSrc:
-      "https://cdn.discordapp.com/attachments/285826576417816576/914019988640243742/Image2021-11-2653.png",
+      "https://cdn.discordapp.com/attachments/285826576417816576/973426285567160360/unknown.png",
     category: ["Dev"],
     parentCompany: "Baking Bad",
+    githubUrl: "https://github.com/ant4g0nist/chinstrap",
+    twitterUrl: "https://twitter.com/chinstrap_io",
   },
   {
     name: "tplus",
