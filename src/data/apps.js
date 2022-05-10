@@ -526,7 +526,7 @@ export let apps = [
     category: ["NFT"],
     parentCompany: "OneOF",
     imageSrc:
-      "https://pbs.twimg.com/profile_images/1397164534624837637/wRzkz4Io_400x400.jpg",
+      "https://cdn.discordapp.com/attachments/285826576417816576/973427196142178314/unknown.png",
     twitterUrl: "https://twitter.com/oneofnft",
     discordUrl: "https://discord.com/invite/oneofnft",
   },
