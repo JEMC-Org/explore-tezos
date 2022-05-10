@@ -854,7 +854,8 @@ export let apps = [
       "Farming shouldn’t be thought of as a bad user experience. Welcome to $FARM, a Tezos based farming platform focused on the user and built by community members.",
     category: ["DeFi"],
     parentCompany: "",
-    imageSrc: "https://farmsoil.xyz/images/app_logo_green.png",
+    imageSrc:
+      "https://media.discordapp.net/attachments/285826576417816576/973428750333145088/unknown.png",
     twitterUrl: "https://twitter.com/farmsomesoil",
     telegramUrl: "https://t.me/farmsomesoil",
     mediumUrl: "https://farmsoil.medium.com/",
