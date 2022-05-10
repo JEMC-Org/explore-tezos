@@ -346,7 +346,7 @@ export let apps = [
     category: ["Gaming", "Featured"],
     parentCompany: "gif.games",
     imageSrc:
-      "https://tezotop.io/wp-content/uploads/2021/03/tezotopia-logo.png",
+      "https://cdn.discordapp.com/attachments/285826576417816576/973426705165320222/unknown.png",
     discordUrl: "https://discord.gg/saAu2f2adC",
     telegramUrl: "https://t.me/gifgames",
     twitterUrl: "https://twitter.com/gifdotgames",
