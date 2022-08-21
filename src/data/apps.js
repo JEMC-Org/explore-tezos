@@ -1761,6 +1761,20 @@ export let apps = [
     twitterUrl: "https://twitter.com/werenode",
     telegramUrl: "https://t.me/joinchat/20948tdORW1hZTlk",
   },
+  {
+    name: "U Promise Me",
+    href: "https://upromise.me/",
+    description:
+      "The digital promise platform, a revolutionary tool for creating trustworthy relationships, commitments obligations ",
+    category: ["Tool, Corporate"],
+    parentCompany: "UPromiseMe",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1010716530016780288/unknown.png",
+    twitterUrl: "https://twitter.com/upromise_me",
+    mediumUrl: "https://upromiseme.medium.com/",
+    linkedinUrl: "https://www.linkedin.com/company/upromiseme/",
+    telegramUrl: "https://t.me/upromiseme",
+  },
   // {
   //   name: "Sol2Ligo",
   //   href: "https://madfish-solutions.github.io/sol2ligo/",
