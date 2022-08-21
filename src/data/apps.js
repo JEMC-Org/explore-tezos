@@ -1616,7 +1616,8 @@ export let apps = [
       "A domain-specific language to develop Smart Contracts on the Tezos blockchain, with all Michelson features, plus exclusive features ",
     category: ["Tool", "Dev"],
     parentCompany: "edukera",
-    imageSrc: "https://archetype-lang.org/images/Illu-home.svg",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1010708815836094474/archetype-logo-light.png",
     twitterUrl: "https://twitter.com/archetype_lang",
     githubUrl: "https://github.com/edukera/archetype-lang",
   },
