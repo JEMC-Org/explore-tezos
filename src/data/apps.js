@@ -21,7 +21,8 @@ export let apps = [
       "QuipuSwap is an automated market-making (AMM) decentralized exchange (DEX) on the Tezos blockchain. QuipuSwap uses liquidity Pools the same way as UniSwap.",
     category: ["DeFi", "Featured"],
     parentCompany: "MadFish Solutions",
-    imageSrc: "https://quipuswap.com/img/logo.87f215cb.png",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/941484119509073920/quipu.png",
     redditUrl: "https://www.reddit.com/r/MadFishCommunity/",
     twitterUrl: "https://twitter.com/madfishofficial",
     discordUrl: "https://discord.com/invite/qFRZ8kVzkv",
@@ -273,7 +274,8 @@ export let apps = [
       "PixelPotus is a digital collectable competition built on the Tezos blockchain.",
     category: ["NFT", "Gaming", "Featured"],
     parentCompany: "",
-    imageSrc: "https://www.pixelpotus.com/img/potus.c3aeacbd.gif",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/960066980419883018/unknown.png",
     twitterUrl: "https://twitter.com/PixelPotus",
     discordUrl: "https://discord.gg/CbdbvwtwkM",
     telegramUrl: "https://t.me/pixelpotus",
@@ -344,7 +346,7 @@ export let apps = [
     category: ["Gaming", "Featured"],
     parentCompany: "gif.games",
     imageSrc:
-      "https://tezotop.io/wp-content/uploads/2021/03/tezotopia-logo.png",
+      "https://cdn.discordapp.com/attachments/285826576417816576/973426705165320222/unknown.png",
     discordUrl: "https://discord.gg/saAu2f2adC",
     telegramUrl: "https://t.me/gifgames",
     twitterUrl: "https://twitter.com/gifdotgames",
@@ -373,6 +375,17 @@ export let apps = [
     githubUrl: "https://github.com/hicetnunc2000",
     redditUrl: "https://www.reddit.com/r/hicetnunc",
     telegramUrl: "https://t.me/hicetnunc2000",
+  },
+  {
+    name: "Naan Wallet",
+    href: "https://www.naanwallet.com/",
+    description:
+      "Naan has all the flavours you crave for in the palm of your hand. An easy-to-use mobile wallet, ready for all your DeFi needs on the Tezos blockchain. Created by Tezsure",
+    category: ["Wallet", "Featured"],
+    parentCompany: "Tezsure",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/960065613483606067/unknown.png",
+    twitterUrl: "https://twitter.com/naanwallet",
   },
   {
     name: "Kalamint",
@@ -513,7 +526,7 @@ export let apps = [
     category: ["NFT"],
     parentCompany: "OneOF",
     imageSrc:
-      "https://pbs.twimg.com/profile_images/1397164534624837637/wRzkz4Io_400x400.jpg",
+      "https://cdn.discordapp.com/attachments/285826576417816576/973427196142178314/unknown.png",
     twitterUrl: "https://twitter.com/oneofnft",
     discordUrl: "https://discord.com/invite/oneofnft",
   },
@@ -651,6 +664,18 @@ export let apps = [
     imageSrc: "https://www.tezos.finance/tezfinwhite.svg",
     twitterUrl: "https://twitter.com/TezosFinance",
     telegramUrl: "https://t.me/TezFin",
+  },
+  {
+    name: "TezDAO",
+    href: "https://tezdao.org/",
+    description:
+      "TezDAO is the Decentralized Autonomous Organisation empowering the community to propose and fund projects on Tezos.",
+    category: ["Tool"],
+    parentCompany: "TezDAO",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/936062894129442857/tezoslogo3.png",
+    twitterUrl: "https://twitter.com/tezDAO",
+    discordUrl: "https://discord.com/invite/7BYTYyZfdK",
   },
   {
     name: "Instaraise",
@@ -829,7 +854,8 @@ export let apps = [
       "Farming shouldn’t be thought of as a bad user experience. Welcome to $FARM, a Tezos based farming platform focused on the user and built by community members.",
     category: ["DeFi"],
     parentCompany: "",
-    imageSrc: "https://farmsoil.xyz/images/app_logo_green.png",
+    imageSrc:
+      "https://media.discordapp.net/attachments/285826576417816576/973428750333145088/unknown.png",
     twitterUrl: "https://twitter.com/farmsomesoil",
     telegramUrl: "https://t.me/farmsomesoil",
     mediumUrl: "https://farmsoil.medium.com/",
@@ -973,6 +999,18 @@ export let apps = [
     discordUrl: "https://discord.gg/Zs6wTd63Yn",
   },
   {
+    name: "Tezos-Artcast",
+    href: "https://tezos-artcast.xyz/",
+    description:
+      "The tezos-artcast: Conversations & Explorations in the world of NFT Art Music Games and more!",
+    category: ["NFT", "Tool"],
+    parentCompany: "",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/940445471581831168/FllyWYdk_400x400.png",
+    twitterUrl: "https://twitter.com/ArtcastTezos",
+    youtubeUrl: "https://www.youtube.com/channel/UC6baw-aTxb3ZbrdkwREqK_ws",
+  },
+  {
     name: "Homebase",
     href: "https://tezos-homebase.io/",
     description:
@@ -983,6 +1021,15 @@ export let apps = [
       "https://tezos-homebase.io/static/media/homebase_logo.bd22e86f.svg",
     discordUrl: "https://discord.com/invite/Rgf72KEH",
     githubUrl: "https://github.com/dOrgTech/homebase-app",
+  },
+  {
+    name: "Tezos Academy",
+    href: "https://tezosacademy.io/",
+    description:
+      "Tezos Academy is a fun interactive tutorial to the LIGO language. It is compatible with PascaLIGO, CameLIGO and ReasonLIGO with an interactive editor",
+    category: ["Dev"],
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/936065973285441556/ship.png",
   },
   {
     name: "TezTracker",
@@ -1005,12 +1052,13 @@ export let apps = [
     twitterUrl: "https://twitter.com/fredcy",
   },
   {
-    name: "Faucet Tzalpha",
-    href: "https://faucet.tzalpha.net/",
+    name: "Faucet Teztnets",
+    href: "https://teztnets.xyz/",
     description: "A faucet for the Tezos test net",
     category: ["Dev", "Tool"],
     parentCompany: "",
-    imageSrc: "https://faucet.tzalpha.net/img/faucet.png",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/940444331930701864/63163636.png",
   },
   {
     name: "Tezos FA Tokens Faucet",
@@ -1032,6 +1080,16 @@ export let apps = [
     imageSrc:
       "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIiIGhlaWdodD0iIiB2aWV3Qm94PSIwIDAgMjggMjMiPgogICAgPGcgZmlsbD0ibm9uZSI+CiAgICAgICAgPHBhdGggZmlsbD0iIzdEQzBERSIgZD0iTTIxLjM3NiA3LjE5M2MyLjU1IDIuNTUgMy42NyA3LjEyOCAzLjM2IDEwLjQ1OCAxLjc3Mi00LjIzLjkzOS05LjI5My0yLjUwNi0xMi43MzdDMTYuNTQ0LS43NyA3LjMyNi0uNzcgMS42NCA0LjkxNGwxLjU5MyAxLjQ1YzUuNzc0LTUgMTMuMjE1LTQuMDk4IDE4LjE0My44Mjl6IiB0cmFuc2Zvcm09InNjYWxlKDEgLTEpIHJvdGF0ZSgtMzUgLTIyLjQ3MyAtMi4xNzIpIi8+CiAgICAgICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTE1LjUyNyAyNC4wNmMtMi41OTkgMC01LjA0MS0xLjAwMS02Ljg3OC0yLjgxOC0yLjgxNi0yLjc4NS0zLjA0Ni03LjE3NC0uNjkxLTEwLjIyMkwuOTM1IDQuNjk4bC4zMTYtLjMxMmM1LjgzMi01Ljc2OSAxNS4zMjItNS43NjggMjEuMTU0IDAgMi4yNzYgMi4yNTEgMy41MyA1LjI0NCAzLjUzIDguNDI4IDAgMy4xODQtMS4yNTQgNi4xNzctMy41MyA4LjQyOC0xLjgzOCAxLjgxNy00LjI4IDIuODE4LTYuODc4IDIuODE4ek0xMy4xNTkgOS4yMzhjLTEuNDE1IDAtMi44My41MzItMy45MDcgMS41OTgtMi43MzUgMi43MDUtMi43MzUgNy4xMDUgMCA5LjgxIDEuNjc2IDEuNjU4IDMuOTA0IDIuNTcgNi4yNzUgMi41NyAyLjM3IDAgNC41OTgtLjkxMiA2LjI3NC0yLjU3IDIuMTE2LTIuMDkyIDMuMjgtNC44NzQgMy4yOC03LjgzMnMtMS4xNjQtNS43NC0zLjI4LTcuODMxQzE5LjEzNyAyLjM0OCAxNS41OTUuODk2IDExLjgyOC44OTZjLTMuNjE4IDAtNy4wMjkgMS4zMzktOS42NTMgMy43NzhsNi4zMzcgNS43MDRjLjA0NS0uMDQ2LjA5LS4wOTMuMTM3LS4xMzkgMi40ODctMi40NiA2LjUzNC0yLjQ1OSA5LjAyIDAgLjk4Ljk3IDEuNTIgMi4yNTggMS41MiAzLjYyOSAwIDEuMzctLjU0IDIuNjU5LTEuNTIgMy42MjgtMS42NSAxLjYzMy00LjMzOCAxLjYzMy01Ljk5IDAtMS4zNTQtMS4zNC0xLjM1NC0zLjUxOSAwLTQuODU5IDEuMTE4LTEuMTA0IDIuOTM1LTEuMTA0IDQuMDUxIDAgLjQ1LjQ0NC42OTYgMS4wMzUuNjk2IDEuNjYzIDAgLjYyOC0uMjQ3IDEuMjE4LS42OTYgMS42NjItLjM3NS4zNzEtLjg3NC41NzUtMS40MDQuNTc1LS41MyAwLTEuMDMtLjIwNC0xLjQwNS0uNTc1bC42MDMtLjU5N2MuMjE0LjIxMi40OTkuMzI5LjgwMi4zMjkuMzAzIDAgLjU4OC0uMTE3LjgwMi0uMzI5LjI4OC0uMjg0LjQ0Ni0uNjYzLjQ0Ni0xLjA2NSAwLS40MDMtLjE1OC0uNzgxLS40NDYtMS4wNjYtLjc4NC0uNzc2LTIuMDYtLjc3NS0yLjg0NSAwLTEuMDIxIDEuMDEtMS4wMjEgMi42NTUgMCAzLjY2NiAxLjMyIDEuMzA1IDMuNDY1IDEuMzA0IDQuNzg0IDAgLjgyLS44MSAxLjI3LTEuODg2IDEuMjctMy4wMzIgMC0xLjE0NS0uNDUtMi4yMjItMS4yNy0zLjAzMi0xLjA3OC0xLjA2NS0yLjQ5My0xLjU5OC0zLjkwOC0xLjU5OHoiIHRyYW5zZm9ybT0ic2NhbGUoMSAtMSkgcm90YXRlKC0zNSAtMjIuNDczIC0yLjE3MikiLz4KICAgIDwvZz4KPC9zdmc+Cg==",
     githubUrl: "https://github.com/Cryptonomic/Nautilus-Cloud-Ui",
+  },
+  {
+    name: "Matter DeFi",
+    href: "https://matterdefi.xyz/#/",
+    description:
+      "Matter DeFi is a yield farming platform aimed to incentivize providing liquidity on SpicySwap. Users may stake SpicySwap LP Tokens to earn the protocol token MTTR.",
+    category: ["DeFi"],
+    parentCompany: "Genius Contracts",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/940440750586462298/mttr.png",
   },
   {
     name: "TezBridge",
@@ -1065,6 +1123,18 @@ export let apps = [
       "https://cdn.discordapp.com/attachments/285826576417816576/902751809611923466/Screen_Shot_2021-10-26_at_9.53.19_PM.png",
     twitterUrl: "https://twitter.com/airgap_it",
     githubUrl: "https://github.com/tzbutton/tzbutton",
+  },
+  {
+    name: "tz1and",
+    href: "https://www.tz1and.com/",
+    description:
+      "A virtual wold/nft marketplace. You can collect Items, build stuff, and build together with others. The world is stored completely on the blockchain.",
+    category: ["NFT"],
+    parentCompany: "tz1and",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/941483007393542164/tezlandWB512.png",
+    twitterUrl: "https://twitter.com/tz1and",
+    discordUrl: "https://discord.gg/fbpy4QdzSp",
   },
   {
     name: "HERA",
@@ -1140,7 +1210,8 @@ export let apps = [
       "TzGo is the officially supported Tezos Go client library by Blockwatch. This SDK is free to use in commercial and non-commercial projects with a permissive license.",
     category: ["Dev"],
     parentCompany: "",
-    imageSrc: "",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/936087156286431252/Image2022-01-2653.png",
     githubUrl: "https://github.com/blockwatch-cc/tzgo",
   },
   {
@@ -1271,18 +1342,18 @@ export let apps = [
     telegramUrl: "https://t.me/tzcolors",
     twitterUrl: "https://twitter.com/tzcolors",
   },
-  {
-    name: "CricTez",
-    href: "https://crictez.io/",
-    description:
-      "Collect limited edition cricket collectibles(NFTs), trade on marketplace & compete in live matches to earn exclusive rewards",
-    category: ["NFT"],
-    parentCompany: "CricTez",
-    imageSrc:
-      "https://cdn.discordapp.com/attachments/285826576417816576/909286705931096094/mhdAAAAAElFTkSuQmCC.png",
-    twitterUrl: "https://twitter.com/crictez_io",
-    discordUrl: "https://discord.com/invite/dHaBeKjEDj",
-  },
+  // {
+  //   name: "CricTez",
+  //   href: "https://crictez.io/",
+  //   description:
+  //     "Collect limited edition cricket collectibles(NFTs), trade on marketplace & compete in live matches to earn exclusive rewards",
+  //   category: ["NFT"],
+  //   parentCompany: "CricTez",
+  //   imageSrc:
+  //     "https://cdn.discordapp.com/attachments/285826576417816576/909286705931096094/mhdAAAAAElFTkSuQmCC.png",
+  //   twitterUrl: "https://twitter.com/crictez_io",
+  //   discordUrl: "https://discord.com/invite/dHaBeKjEDj",
+  // },
   {
     name: "Netezos",
     href: "https://netezos.dev/",
@@ -1335,7 +1406,8 @@ export let apps = [
       "Liquibrium is a decentralized exchange for tezos ecosystem which focuses on stable assets and provides the most optimum exchange value.",
     category: ["DeFi"],
     parentCompany: "",
-    imageSrc: "https://liquibrium.netlify.app/static/media/demo.2229015e.png",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/960067609288663070/unknown.png",
   },
   {
     name: "Radion.fm",
@@ -1506,13 +1578,15 @@ export let apps = [
   },
   {
     name: "Chinstrap",
-    href: "https://docs.chinstrap.io/",
+    href: "https://chinstrap.io/",
     description:
       "Chinstrap is a development environment, testing framework, and asset pipeline focused solely on Tezos, aiming to become Swiss-Army-Knife for Tezos Smart Contract developers.",
     imageSrc:
-      "https://cdn.discordapp.com/attachments/285826576417816576/914019988640243742/Image2021-11-2653.png",
+      "https://cdn.discordapp.com/attachments/285826576417816576/973426285567160360/unknown.png",
     category: ["Dev"],
     parentCompany: "Baking Bad",
+    githubUrl: "https://github.com/ant4g0nist/chinstrap",
+    twitterUrl: "https://twitter.com/chinstrap_io",
   },
   {
     name: "tplus",
@@ -1542,7 +1616,8 @@ export let apps = [
       "A domain-specific language to develop Smart Contracts on the Tezos blockchain, with all Michelson features, plus exclusive features ",
     category: ["Tool", "Dev"],
     parentCompany: "edukera",
-    imageSrc: "https://archetype-lang.org/images/Illu-home.svg",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1010708815836094474/archetype-logo-light.png",
     twitterUrl: "https://twitter.com/archetype_lang",
     githubUrl: "https://github.com/edukera/archetype-lang",
   },
@@ -1554,7 +1629,7 @@ export let apps = [
     category: ["Dev"],
     parentCompany: "Baking Bad",
     imageSrc:
-      "https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=2,format=auto/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-28427.appspot.com%2Fo%2Fspaces%252F-MYAMf2BH-LOIc8YWoHV%252Favatar-1618502720833.png%3Fgeneration%3D1618502721094932%26alt%3Dmedia",
+      "https://cdn.discordapp.com/attachments/285826576417816576/960068299138416710/unknown.png",
     discordUrl: "https://discord.gg/aG8XKuwsQd",
   },
   {
@@ -1573,22 +1648,9 @@ export let apps = [
     description: "Developer tools for the Michelson Language",
     category: ["Dev"],
     parentCompany: "",
-    imageSrc: "",
-    gitlabUrl: "https://gitlab.com/morley-framework/morley",
-  },
-  {
-    name: "Rocket",
-    href: "https://rocketlaunchpad.io/",
-    description:
-      "The link between Tezos based projects and early investors. All projects will be vetted for code, quality and overall objective, bringing users and projects together",
-    category: ["DeFi"],
-    parentCompany: "Crunchy",
     imageSrc:
-      "https://pbs.twimg.com/profile_images/1419484137367515136/BHSvs59m_400x400.jpg",
-    twitterUrl: "https://twitter.com/rocketlaunchpd",
-    telegramUrl: "https://t.me/rocketlaunchpd",
-    mediumUrl: "https://rocketlaunchpad.medium.com/",
-    discordUrl: "https://discord.com/invite/aQVBj7KKxf",
+      "https://cdn.discordapp.com/attachments/285826576417816576/936085659855257610/Image2022-01-2650.png",
+    gitlabUrl: "https://gitlab.com/morley-framework/morley",
   },
   {
     name: "Wolfram",
@@ -1627,7 +1689,7 @@ export let apps = [
     category: ["Corporate"],
     parentCompany: "",
     imageSrc:
-      "https://www.mclarenstore.com/on/demandware.static/Sites-MCL-Site/-/default/dw65c73a84/images/logo.svg",
+      "https://cdn.discordapp.com/attachments/285826576417816576/936086400992952340/vZQyt4ME_400x400.png",
   },
   {
     name: "N.Y. Mets",

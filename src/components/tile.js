@@ -17,9 +17,18 @@ import {
 export default function Tile({ app }) {
   return (
     <div className="w-full h-auto mx-h-10 bg-secondary">
-      <a href={app.href} target="_blank" rel="noopener noreferrer">
+      <a
+        href={app.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={app.name + " Link"}
+      >
         <div className="flex justify-center rounded-lg h-20 w-auto">
-          <img src={app.imageSrc} alt={app.name} className="max-h-20 rounded" />
+          <img
+            src={app.imageSrc}
+            alt={app.name + " Image"}
+            className="max-h-20 rounded"
+          />
         </div>
         <div className="m-1 pt-2 pb-10">
           <h3 className="text-titles">{app.name}</h3>
@@ -40,6 +49,7 @@ export default function Tile({ app }) {
             href={app.href}
             target="_blank"
             rel="noopener noreferrer"
+            aria-hidden="true"
           >
             {<FontAwesomeIcon icon={faGlobe} />}
           </a>
@@ -50,6 +60,7 @@ export default function Tile({ app }) {
             href={app.twitterUrl}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={app.name + " Twitter link"}
           >
             {<FontAwesomeIcon icon={faTwitter} />}
           </a>
@@ -60,6 +71,7 @@ export default function Tile({ app }) {
             href={app.redditUrl}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={app.name + " Reddit link"}
           >
             {<FontAwesomeIcon icon={faReddit} />}
           </a>
@@ -70,6 +82,7 @@ export default function Tile({ app }) {
             href={app.telegramUrl}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={app.name + " Telegram link"}
           >
             {<FontAwesomeIcon icon={faTelegram} />}
           </a>
@@ -80,6 +93,7 @@ export default function Tile({ app }) {
             href={app.discordUrl}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={app.name + " Discord link"}
           >
             {<FontAwesomeIcon icon={faDiscord} />}
           </a>
@@ -90,6 +104,7 @@ export default function Tile({ app }) {
             href={app.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={app.name + " Github link"}
           >
             {<FontAwesomeIcon icon={faGithub} />}
           </a>
@@ -100,6 +115,7 @@ export default function Tile({ app }) {
             href={app.gitlabUrl}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={app.name + " Gitlab link"}
           >
             {<FontAwesomeIcon icon={faGitlab} />}
           </a>
@@ -110,6 +126,7 @@ export default function Tile({ app }) {
             href={app.linkedinUrl}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={app.name + " linkedin link"}
           >
             {<FontAwesomeIcon icon={faLinkedin} />}
           </a>
@@ -120,6 +137,7 @@ export default function Tile({ app }) {
             href={app.youtubeUrl}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={app.name + " Youtube link"}
           >
             {<FontAwesomeIcon icon={faYoutube} />}
           </a>
@@ -130,6 +148,7 @@ export default function Tile({ app }) {
             href={app.mediumUrl}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={app.name + " Medium link"}
           >
             {<FontAwesomeIcon icon={faMedium} />}
           </a>

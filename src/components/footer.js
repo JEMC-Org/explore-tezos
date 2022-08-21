@@ -20,6 +20,7 @@ export default function Footer() {
           href="https://twitter.com/exploretezos"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Vist our Twitter"
         >
           <FontAwesomeIcon icon={faTwitter} />
         </a>
@@ -28,6 +29,7 @@ export default function Footer() {
           href="https://discord.gg/fXsVvsxCr3"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Join our Discord"
         >
           <FontAwesomeIcon icon={faDiscord} />
         </a>
@@ -36,6 +38,7 @@ export default function Footer() {
           href="https://jemc.xyz"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Learn more about us"
         >
           <FontAwesomeIcon icon={faMap} />
         </a>
@@ -44,19 +47,34 @@ export default function Footer() {
           href="https://github.com/JEMC-Org/explore-tezos"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Vist our Github"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>
       </div>
       <div className="flex pb-4 flex-col items-center justify-center text-descriptions text-center">
-        <a href="https://tzkt.io/tz1g1kNmzUmWnmxmtWbjtkMW4feSYmqAyjpR/operations/">
+        <a
+          href="https://tzkt.io/tz1g1kNmzUmWnmxmtWbjtkMW4feSYmqAyjpR/operations/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit our wallet on tzkt.io"
+        >
           Donation: tz1g1kNmzUmWnmxmtWbjtkMW4feSYmqAyjpR or whatis.tez{" "}
         </a>
       </div>
       <div>
         <p className="w-full h-10 flex justify-center text-xs text-descriptions">
-          Copyright © 2022&nbsp;<a href="https://jemc.xyz"> JEMC </a>. All
-          Rights Reserved. Made with &nbsp;{" "}
+          Copyright © 2022&nbsp;
+          <a
+            href="https://jemc.xyz"
+            aria-label=" visit our about website jemc.xyz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            JEMC{" "}
+          </a>
+          . All Rights Reserved. Made with &nbsp;{" "}
           <span className="text-red">&#9829;</span>
         </p>
       </div>
