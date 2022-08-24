@@ -264,7 +264,7 @@ export let apps = [
       "Welcome, Tezos developers! Explore the technical and economic concepts behind the Tezos Network, experiment with our tutorials, or start building your own Tezos dApp.",
     category: ["Dev"],
     parentCompany: "",
-    imageSrc: "https://opentezos.com/img/logo.svg",
+    imageSrc: "https://opentezos.com/img/logo-dark.svg",
     gitlabUrl: "https://gitlab.com/tezos-paris-hub/OpenTezos/",
   },
   {
@@ -336,7 +336,7 @@ export let apps = [
     parentCompany: "Lugh",
     imageSrc:
       "https://cdn.discordapp.com/attachments/285826576417816576/908914831602647070/V51L-boN_400x400.png",
-    twitterdUrl: "https://twitter.com/LughStablecoin",
+    twitterUrl: "https://twitter.com/LughStablecoin",
   },
   {
     name: "Tezotopia",
@@ -471,7 +471,7 @@ export let apps = [
   },
   {
     name: "ArtForge",
-    href: "https://dns.xyz/",
+    href: "https://www.artforge.io/",
     description:
       "ArtForge is the first of its kind all-in-one NFT platform offering artists and collectors a full set of services to create and mint NFT collections including generative features, crowdsales, and a marketplace. ",
     category: ["NFT"],
@@ -484,7 +484,7 @@ export let apps = [
   },
   {
     name: "DNS.xyz",
-    href: "https://artforge.io",
+    href: "https://dns.xyz/",
     description:
       "We turn all your wallets into one decentralized profile. You can show off your identity, connect your wallet and show your NFTs.",
     category: ["Tool"],
@@ -502,7 +502,7 @@ export let apps = [
     category: ["DeFi"],
     parentCompany: "",
     imageSrc:
-      "https://www.stakerdao.com/webroot/images/stakerDAO-logo-white.svg",
+      "https://cdn.discordapp.com/attachments/285826576417816576/1011793137817092236/unknown.png",
     twitterUrl: "https://twitter.com/stakerdao",
     githubUrl: "https://github.com/StakerDAO",
     telegramUrl: "https://t.me/stakercommunity",
@@ -697,7 +697,8 @@ export let apps = [
     description: "A friendly Smart Contract Language for Tezos",
     category: ["Dev"],
     parentCompany: "",
-    imageSrc: "https://ligolang.org/img/logo-night.svg",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1011792191032664124/unknown.png",
     discordUrl: "https://discord.com/invite/9rhYaEt",
     telegramUrl: "https://t.me/LigoLang",
     gitlabUrl: "https://gitlab.com/ligolang/ligo",
@@ -1168,19 +1169,6 @@ export let apps = [
     twitterUrl: "https://twitter.com/XTZNews",
   },
   {
-    name: "Bazaar NFT",
-    href: "https://bazaarnft.xyz/",
-    description:
-      "Bazaar Market is the first ever carbon-negative NFT market, powered by Tezos.",
-    category: ["NFT"],
-    parentCompany: "Mclntyre Industries",
-    imageSrc: "https://bazaarnft.xyz/static/media/footerLogo.7f183d29.svg",
-    twitterUrl: "https://twitter.com/BazartNFT",
-    GithubUrl: "https://github.com/BazaarMarket/Bazaar-Market",
-    DiscordUrl: "https://discord.com/invite/mnYZwv8s5a",
-    TelegramUrl: "https://t.me/joinchat/L_izbzRXxLNhNTY5",
-  },
-  {
     name: "FA 2 Token Batch Sender",
     href: "https://batch.xtz.tools/",
     description:
@@ -1293,6 +1281,16 @@ export let apps = [
       "https://cdn.discordapp.com/attachments/285826576417816576/909276864042913803/dedfea94-590c-4b8a-8216-251d8fc66269.png",
     twitterUrl: "https://twitter.com/fx_hash_",
     discordUrl: "https://discord.com/invite/wzqxfdCKCC",
+  },
+  {
+    name: "xshash (fxhash derivative)",
+    href: "https://xshash.xyz/",
+    description: "A Fxhash derivative made by xsfunc",
+    category: ["Tool, NFT"],
+    parentCompany: "xsfunc",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1010734367783522415/unknown.png",
+    twitterUrl: "https://twitter.com/xsfunc",
   },
   {
     name: "Ubinetic",
@@ -1791,7 +1789,7 @@ export let apps = [
     href: "https://goeureka.io/",
     description:
       "Blockchain-powered travel tech company building B2B and B2C solutions for the travel sector.",
-    category: ["Corporate", "Tool"],
+    category: ["Tool", "Corporate"],
     parentCompany: "",
     imageSrc:
       "https://cdn.discordapp.com/attachments/285826576417816576/920139777548910642/KrTl1uy3_400x400.png",
@@ -1805,7 +1803,7 @@ export let apps = [
     href: "https://www.gap.com/nft/",
     description:
       "Gap hosts several NFT collections of their website. Collect enough NFTs and get one in person!",
-    category: ["Corporate", "NFT"],
+    category: ["NFT", "Corporate"],
     parentCompany: "Gap",
     imageSrc:
       "https://cdn.discordapp.com/attachments/285826576417816576/931844241620090890/B3iDQ8GR_400x400.png",
@@ -1828,7 +1826,7 @@ export let apps = [
     href: "https://upromise.me/",
     description:
       "The digital promise platform, a revolutionary tool for creating trustworthy relationships, commitments obligations ",
-    category: ["Tool, Corporate"],
+    category: ["Tool", "Corporate"],
     parentCompany: "UPromiseMe",
     imageSrc:
       "https://cdn.discordapp.com/attachments/285826576417816576/1010716530016780288/unknown.png",
@@ -1836,6 +1834,166 @@ export let apps = [
     mediumUrl: "https://upromiseme.medium.com/",
     linkedinUrl: "https://www.linkedin.com/company/upromiseme/",
     telegramUrl: "https://t.me/upromiseme",
+  },
+  {
+    name: "Vitality (V.hive)",
+    href: "https://vhive.vitality.gg/",
+    description:
+      "France's first esports club partners with Tezos. Creating the first support-to-earn sytstem in Esports for the widest audience with a free and easy to understand platform.",
+    category: ["Corporate"],
+    parentCompany: "Vitality",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1010723207013208084/unknown.png",
+    twitterUrl: "https://twitter.com/TeamVitality",
+    discordUrl: "https://discord.com/invite/v-hive",
+    youtubeUrl: "https://www.youtube.com/watch?v=W3CmwlOq7Zk",
+  },
+  {
+    name: "Tezos Foundation",
+    href: "https://tezos.foundation/",
+    description:
+      "The Tezos Foundation is one among many other entities in the Tezos ecosystem and stands as part of the community in support of the Tezos protocol and ecosystem",
+    category: ["Dev", "Corporate"],
+    parentCompany: "Tezos",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1010728768228311140/unknown.png",
+    twitterUrl: "https://twitter.com/TezosFoundation",
+    linkedinUrl: "https://www.linkedin.com/company/tezosfoundation/",
+  },
+  {
+    name: "CryptoCount",
+    href: "https://cryptocount.co/",
+    description:
+      "Mockup realizations of your Tezos based assets in 40 fiat currencies. CryptoCount is a read-only tax tool",
+    category: ["Tool", "Open Source"],
+    parentCompany: "PortalToBlockchain",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1010727032658862191/unknown.png",
+    githubUrl: "https://github.com/PortalToBlockchainOrganization",
+    discordUrl: "https://discord.com/invite/7rYEu5c32E",
+  },
+  {
+    name: "WolverMe",
+    href: "https://www.wolver.me/",
+    description: "A portfolio tracker built for Tezos",
+    category: ["Tool"],
+    parentCompany: "0xpi",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1010730517655736390/unknown.png",
+    twitterUrl: "https://twitter.com/_0xpi_/",
+    linkedinUrl: "https://0xpi.com/",
+  },
+  {
+    name: "ARTUS",
+    href: "https://artusnft.com/home/",
+    description:
+      "Your Fxhash, Teia, Hicetnunc & Objkt collection on the big screen.. ARTUS is an app that lets you turn devices like TVs, monitors or tablets into art frames for NFTs on the Tezos blockchain.",
+    category: ["Tool", "NFT"],
+    parentCompany: "Andre Fuchs",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1010736120079851641/unknown.png",
+    twitterUrl: "https://twitter.com/AndreFvchs",
+  },
+  {
+    name: "Lockt",
+    href: "https://lockt.io/",
+    description: "Unlockable content for Tezos NFTs",
+    category: ["Tool", "NFT"],
+    parentCompany: "Codecrafting Labs",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1010737517156376607/unknown.png",
+    twitterUrl: "https://twitter.com/mycodecrafting",
+    linkedinUrl: "https://cclabs.tech/",
+  },
+  {
+    name: "Tez Graph",
+    href: "https://tezgraph.com",
+    description:
+      "TezGraph is an open-source GraphQL API that provides access to historical and real-time Tezos blockchain data with the convenience of GraphQL.",
+    category: ["Dev", "Tool"],
+    parentCompany: "Ecad Labs",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1010740121412309133/logo_-_01.png",
+    twitterUrl: "https://twitter.com/TezGraph",
+    gitlabUrl: "https://gitlab.com/tezgraph/tezgraph",
+    discordUrl: "https://discord.com/invite/sRUjuEPJjS",
+  },
+  {
+    name: "Sphere.ART",
+    href: "https://sphere.art/",
+    description:
+      "A tool/ software which allows anyone to get started with building 3D Spheres and Sell them on the Tezos blockchain",
+    category: ["Tool", "NFT"],
+    parentCompany: "Code Decoders",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1010741506442805248/unknown.png",
+    twitterUrl: "https://twitter.com/SphereART_NFT",
+    telegramUrl: "https://t.me/SphereART_NFT",
+    discordUrl: "https://discord.com/invite/JGhTFqcx3T",
+  },
+  {
+    name: "Typed",
+    href: "https://typed.art/",
+    description:
+      "text-based nft marketplace on tezos blockchain. Create a text only NFT",
+    category: ["Tool", "NFT"],
+    parentCompany: "Typed",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1010742548718956654/unknown.png",
+    twitterUrl: "https://twitter.com/typed_art",
+    telegramUrl: "https://t.me/SphereART_NFT",
+    discordUrl: "https://discord.com/invite/xVnffHyBT5",
+  },
+  {
+    name: "Tezos Jobs",
+    href: "https://tezosjobs.xyz/",
+    description:
+      "A Tezos only job board. Find work related to the Tezos blockchain or post a job.",
+    category: ["Dev", "Tool"],
+    parentCompany: "Tezos Jobs",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1010745704974651422/Image2022-08-2024.png",
+  },
+  {
+    name: "QuipuSwap Coin Flip",
+    href: "https://quipuswap.com/coinflip",
+    description: "A coin flip gambling game made by QuipuSwap ",
+    category: ["Gaming"],
+    parentCompany: "QuipuSwap",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1011776541228806254/image1.png",
+    redditUrl: "https://www.reddit.com/r/MadFishCommunity/",
+    twitterUrl: "https://twitter.com/madfishofficial",
+    discordUrl: "https://discord.com/invite/qFRZ8kVzkv",
+    githubUrl: "https://github.com/madfish-solutions/templewallet-extension",
+    telegramUrl: "https://t.me/MadFishCommunity",
+  },
+  {
+    name: "Pixel Power",
+    href: "https://www.pixelpower.xyz",
+    description:
+      "PiixelPower is a high-caliber NFT competition. 50+ NFT weapons with 6 levels of rarity. Upgrade fees are shared with the community each season.",
+    category: ["NFT", "Gaming"],
+    parentCompany: "Pixel Games",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1011782352613163148/unknown.png",
+    twitterUrl: "https://twitter.com/PixelPotus",
+    discordUrl: "https://discord.gg/CbdbvwtwkM",
+    telegramUrl: "https://t.me/pixelpotus",
+  },
+  {
+    name: "Oath Bound",
+    href: "https://oathbound.eleet.games/",
+    description:
+      "PLAY-AND-Earn MMORPG for PC. Oathbound is accessible as well as playable without the necessity to prior token purchases or a connection to the blockchain at all. Those interested in crypto and NFTs can connect their wallets to ultimately profit from the play-to-earn mechanics and the time invested into the game.",
+    category: ["Gaming"],
+    parentCompany: "Eleet Games",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/285826576417816576/1011783585591742514/unknown.png",
+    telegramUrl: "https://www.t.me/eleetgamesofficial",
+    discordUrl: "https://discord.com/invite/VRQkV6gQyW",
+    youtubeUrl: "https://www.youtube.com/c/ELEETGAMES",
+    linkedinUrl: "https://www.linkedin.com/company/eleet-games/",
   },
   // {
   //   name: "Sol2Ligo",
